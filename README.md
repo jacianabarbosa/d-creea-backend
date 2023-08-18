@@ -34,4 +34,3 @@ npm run dev
 7. na pasta do projeto front, abri um cmd e digitei
 nmp run dev -->
 
-<!-- teste -->

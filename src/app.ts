@@ -102,5 +102,3 @@ class App {
 }
 
 export default App;
-
-// teste
