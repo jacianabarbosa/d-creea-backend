@@ -1,0 +1,49 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/jacianabarbosa/Desktop/d-creea-rubens/dcreea-backend/src/logs/debug/.4a78de1445d92516cc10e1f294b2636e259cd56c-audit.json",
+    "files": [
+        {
+            "date": 1688085216787,
+            "name": "/Users/jacianabarbosa/Desktop/d-creea-rubens/dcreea-backend/src/logs/debug/2023-06-29.log",
+            "hash": "93f99a9351f6d774407a5d464de1a360"
+        },
+        {
+            "date": 1688414705025,
+            "name": "/Users/jacianabarbosa/Desktop/d-creea-rubens/dcreea-backend/src/logs/debug/2023-07-03.log",
+            "hash": "4a4089bc12aeadee535321acdb3d3c16"
+        },
+        {
+            "date": 1690996930107,
+            "name": "/Users/jacianabarbosa/Desktop/d-creea-rubens/dcreea-backend/src/logs/debug/2023-08-02.log",
+            "hash": "24dedb3adaf7321ad352960a4a2a186e"
+        },
+        {
+            "date": 1691100850861,
+            "name": "/Users/jacianabarbosa/Desktop/d-creea-rubens/dcreea-backend/src/logs/debug/2023-08-03.log",
+            "hash": "110ecb2bda6686600b50bee0295ee0ef"
+        },
+        {
+            "date": 1691118177949,
+            "name": "/Users/jacianabarbosa/Desktop/d-creea-rubens/dcreea-backend/src/logs/debug/2023-08-04.log",
+            "hash": "bebb98d2ecce3780a6a0aa8afeada2ce"
+        },
+        {
+            "date": 1691728519229,
+            "name": "/Users/jacianabarbosa/Desktop/d-creea-rubens/dcreea-backend/src/logs/debug/2023-08-11.log",
+            "hash": "cbcf84ea10bf8fee479521f1088b239b"
+        },
+        {
+            "date": 1692224649614,
+            "name": "/Users/jacianabarbosa/Desktop/d-creea-rubens/dcreea-backend/src/logs/debug/2023-08-16.log",
+            "hash": "b3ddaf0f4131cfacd4c1cfbb65ed467d"
+        },
+        {
+            "date": 1692385996654,
+            "name": "/Users/jacianabarbosa/Desktop/d-creea-rubens/dcreea-backend/src/logs/debug/2023-08-18.log",
+            "hash": "77ed8baef04bb4f59e4032c17a9d204a"
+        }
+    ]
+}

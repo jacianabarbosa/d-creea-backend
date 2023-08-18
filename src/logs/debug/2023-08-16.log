@@ -1,0 +1,547 @@
+2023-08-16 19:24:17 info: =================================
+2023-08-16 19:24:17 info: ======= ENV: development =======
+2023-08-16 19:24:17 info: 🚀 App listening on http://localhost:5000/api-docs/
+2023-08-16 19:24:39 info: =================================
+2023-08-16 19:24:39 info: ======= ENV: development =======
+2023-08-16 19:24:39 info: 🚀 App listening on http://localhost:5000/api-docs/
+2023-08-16 19:37:56 info: =================================
+2023-08-16 19:37:56 info: ======= ENV: development =======
+2023-08-16 19:37:56 info: 🚀 App listening on http://localhost:5000/api-docs/
+2023-08-16 19:39:28 info: =================================
+2023-08-16 19:39:28 info: ======= ENV: development =======
+2023-08-16 19:39:28 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 19:40:05 info: [0mOPTIONS /signup [32m204[0m 7.047 ms - 0[0m
+2023-08-16 19:40:06 info: [0mPOST /signup [32m201[0m 272.251 ms - 122[0m
+2023-08-16 19:40:39 info: [0mOPTIONS /login [32m204[0m 0.309 ms - 0[0m
+2023-08-16 19:40:39 info: [0mPOST /login [32m200[0m 186.462 ms - 144[0m
+2023-08-16 19:40:39 info: [0mOPTIONS /Game/all [32m204[0m 0.146 ms - 0[0m
+2023-08-16 19:40:39 info: [0mOPTIONS /Game/all [32m204[0m 0.162 ms - 0[0m
+2023-08-16 19:40:39 info: [0mPOST /Game/all [32m200[0m 74.479 ms - 2[0m
+2023-08-16 19:40:39 info: [0mPOST /Game/all [32m200[0m 76.189 ms - 2[0m
+2023-08-16 19:40:49 info: [0mOPTIONS /Game [32m204[0m 0.244 ms - 0[0m
+2023-08-16 19:40:50 info: [0mPOST /Game [32m201[0m 432.150 ms - -[0m
+2023-08-16 19:40:56 info: [0mOPTIONS /Game [32m204[0m 0.392 ms - 0[0m
+2023-08-16 19:40:57 info: [0mPUT /Game [32m200[0m 527.286 ms - 700[0m
+2023-08-16 19:40:59 info: [0mOPTIONS /Game/all [32m204[0m 0.199 ms - 0[0m
+2023-08-16 19:40:59 info: [0mPOST /Game/all [32m200[0m 6.870 ms - 702[0m
+2023-08-16 19:41:29 info: [0mOPTIONS /Game [32m204[0m 0.346 ms - 0[0m
+2023-08-16 19:41:29 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd50718985b8a9851972ff') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd50718985b8a9851972ff') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd50718985b8a9851972ff') }**
+2023-08-16 19:41:29 info: [0mPOST /Game [33m400[0m 96.403 ms - 130[0m
+2023-08-16 19:42:18 info: [0mOPTIONS /Game/find [32m204[0m 0.175 ms - 0[0m
+2023-08-16 19:42:18 info: [0mPOST /Game/find [32m200[0m 167.929 ms - -[0m
+2023-08-16 19:42:28 info: [0mOPTIONS /Game [32m204[0m 0.165 ms - 0[0m
+2023-08-16 19:42:28 info: [0mPUT /Game [32m200[0m 129.237 ms - 714[0m
+2023-08-16 19:42:30 info: [0mOPTIONS /Game/all [32m204[0m 0.159 ms - 0[0m
+2023-08-16 19:42:31 info: [0mPOST /Game/all [32m200[0m 186.240 ms - 716[0m
+2023-08-16 19:46:53 info: =================================
+2023-08-16 19:46:53 info: ======= ENV: development =======
+2023-08-16 19:46:53 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 19:47:02 info: [0mOPTIONS /login [32m204[0m 61.319 ms - 0[0m
+2023-08-16 19:47:02 info: [0mPOST /login [32m200[0m 153.028 ms - 144[0m
+2023-08-16 19:47:02 info: [0mOPTIONS /Game/all [32m204[0m 0.170 ms - 0[0m
+2023-08-16 19:47:02 info: [0mOPTIONS /Game/all [32m204[0m 0.250 ms - 0[0m
+2023-08-16 19:47:02 info: [0mPOST /Game/all [32m200[0m 20.551 ms - 716[0m
+2023-08-16 19:47:02 info: [0mPOST /Game/all [32m200[0m 22.023 ms - 716[0m
+2023-08-16 19:47:16 info: [0mOPTIONS /Game [32m204[0m 0.155 ms - 0[0m
+2023-08-16 19:47:16 info: [0mPOST /Game [32m201[0m 239.295 ms - -[0m
+2023-08-16 19:47:25 info: [0mOPTIONS /Game/all [32m204[0m 0.176 ms - 0[0m
+2023-08-16 19:47:25 info: [0mPOST /Game/all [32m200[0m 61.476 ms - -[0m
+2023-08-16 19:47:34 info: [0mOPTIONS /Game [32m204[0m 0.201 ms - 0[0m
+2023-08-16 19:47:34 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd51f482bab5aa4860d6a3') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd51f482bab5aa4860d6a3') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd51f482bab5aa4860d6a3') }**
+2023-08-16 19:47:34 info: [0mPOST /Game [33m400[0m 21.580 ms - 130[0m
+2023-08-16 19:49:19 info: =================================
+2023-08-16 19:49:19 info: ======= ENV: development =======
+2023-08-16 19:49:19 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 19:49:48 info: =================================
+2023-08-16 19:49:48 info: ======= ENV: development =======
+2023-08-16 19:49:48 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 19:50:14 info: [0mOPTIONS /login [32m204[0m 8.316 ms - 0[0m
+2023-08-16 19:50:14 error: [POST] /login >> StatusCode:: 409, Message:: Email jaciana@game.com not found, Error: **Error: Email jaciana@game.com not found** Error: **Email jaciana@game.com not found**
+2023-08-16 19:50:14 info: [0mPOST /login [33m409[0m 65.511 ms - 34[0m
+2023-08-16 19:50:23 info: [0mOPTIONS /login [32m204[0m 0.155 ms - 0[0m
+2023-08-16 19:50:23 info: [0mPOST /login [32m200[0m 136.004 ms - 144[0m
+2023-08-16 19:50:23 info: [0mOPTIONS /Game/all [32m204[0m 0.144 ms - 0[0m
+2023-08-16 19:50:24 info: [0mOPTIONS /Game/all [32m204[0m 0.159 ms - 0[0m
+2023-08-16 19:50:24 info: [0mPOST /Game/all [32m200[0m 14.593 ms - -[0m
+2023-08-16 19:50:24 info: [0mPOST /Game/all [32m200[0m 65.391 ms - -[0m
+2023-08-16 19:50:36 info: [0mOPTIONS /Game [32m204[0m 0.163 ms - 0[0m
+2023-08-16 19:50:36 info: [0mPOST /Game [32m201[0m 241.776 ms - -[0m
+2023-08-16 19:50:42 info: [0mOPTIONS /Game/all [32m204[0m 0.203 ms - 0[0m
+2023-08-16 19:50:42 info: [0mPOST /Game/all [32m200[0m 10.939 ms - -[0m
+2023-08-16 19:50:58 info: [0mOPTIONS /Game [32m204[0m 0.165 ms - 0[0m
+2023-08-16 19:50:58 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd52bc1d8da5aacd5614c5') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd52bc1d8da5aacd5614c5') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd52bc1d8da5aacd5614c5') }**
+2023-08-16 19:50:58 info: [0mPOST /Game [33m400[0m 11.590 ms - 130[0m
+2023-08-16 20:03:49 info: [0mOPTIONS /login [32m204[0m 1.442 ms - 0[0m
+2023-08-16 20:03:49 info: [0mPOST /login [32m200[0m 292.821 ms - 144[0m
+2023-08-16 20:03:49 info: [0mOPTIONS /Game/all [32m204[0m 0.175 ms - 0[0m
+2023-08-16 20:03:50 info: [0mPOST /Game/all [32m200[0m 119.282 ms - -[0m
+2023-08-16 20:04:25 info: [0mOPTIONS /Game [32m204[0m 0.178 ms - 0[0m
+2023-08-16 20:04:25 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd52bc1d8da5aacd5614c5') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd52bc1d8da5aacd5614c5') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd52bc1d8da5aacd5614c5') }**
+2023-08-16 20:04:25 info: [0mPOST /Game [33m400[0m 99.357 ms - 130[0m
+2023-08-16 20:09:43 info: [0mOPTIONS /login [32m204[0m 0.172 ms - 0[0m
+2023-08-16 20:09:43 info: [0mPOST /login [32m200[0m 151.899 ms - 144[0m
+2023-08-16 20:09:43 info: [0mOPTIONS /Game/all [32m204[0m 3.026 ms - 0[0m
+2023-08-16 20:09:43 info: [0mOPTIONS /Game/all [32m204[0m 0.147 ms - 0[0m
+2023-08-16 20:09:43 info: [0mPOST /Game/all [32m200[0m 31.505 ms - -[0m
+2023-08-16 20:09:43 info: [0mPOST /Game/all [32m200[0m 54.354 ms - -[0m
+2023-08-16 20:09:50 info: [0mOPTIONS /Game [32m204[0m 0.184 ms - 0[0m
+2023-08-16 20:09:50 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd52bc1d8da5aacd5614c5') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd52bc1d8da5aacd5614c5') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd52bc1d8da5aacd5614c5') }**
+2023-08-16 20:09:50 info: [0mPOST /Game [33m400[0m 131.417 ms - 130[0m
+2023-08-16 20:10:52 info: [0mOPTIONS /login [32m204[0m 0.221 ms - 0[0m
+2023-08-16 20:10:52 info: [0mPOST /login [32m200[0m 154.988 ms - 144[0m
+2023-08-16 20:10:52 info: [0mOPTIONS /Game/all [32m204[0m 0.148 ms - 0[0m
+2023-08-16 20:10:52 info: [0mOPTIONS /Game/all [32m204[0m 0.245 ms - 0[0m
+2023-08-16 20:10:52 info: [0mPOST /Game/all [32m200[0m 24.163 ms - -[0m
+2023-08-16 20:10:52 info: [0mPOST /Game/all [32m200[0m 103.474 ms - -[0m
+2023-08-16 20:11:11 info: [0mOPTIONS /Game [32m204[0m 0.132 ms - 0[0m
+2023-08-16 20:11:11 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd52bc1d8da5aacd5614c5') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd52bc1d8da5aacd5614c5') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd52bc1d8da5aacd5614c5') }**
+2023-08-16 20:11:11 info: [0mPOST /Game [33m400[0m 6.034 ms - 130[0m
+2023-08-16 20:11:23 info: [0mOPTIONS /Game [32m204[0m 0.286 ms - 0[0m
+2023-08-16 20:11:23 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd52bc1d8da5aacd5614c5') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd52bc1d8da5aacd5614c5') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd52bc1d8da5aacd5614c5') }**
+2023-08-16 20:11:23 info: [0mPOST /Game [33m400[0m 58.812 ms - 130[0m
+2023-08-16 20:14:53 info: =================================
+2023-08-16 20:14:53 info: ======= ENV: development =======
+2023-08-16 20:14:53 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 20:15:04 info: [0mOPTIONS /login [32m204[0m 6.869 ms - 0[0m
+2023-08-16 20:15:04 info: [0mPOST /login [32m200[0m 175.558 ms - 144[0m
+2023-08-16 20:15:04 info: [0mOPTIONS /Game/all [32m204[0m 2.113 ms - 0[0m
+2023-08-16 20:15:04 info: [0mOPTIONS /Game/all [32m204[0m 0.137 ms - 0[0m
+2023-08-16 20:15:04 info: [0mPOST /Game/all [32m200[0m 203.524 ms - -[0m
+2023-08-16 20:15:04 info: [0mPOST /Game/all [32m200[0m 203.045 ms - -[0m
+2023-08-16 20:15:48 info: [0mOPTIONS /Game [32m204[0m 0.183 ms - 0[0m
+2023-08-16 20:15:49 info: [0mPOST /Game [32m201[0m 462.561 ms - -[0m
+2023-08-16 20:16:13 info: [0mOPTIONS /Game/all [32m204[0m 0.211 ms - 0[0m
+2023-08-16 20:16:13 info: [0mPOST /Game/all [32m200[0m 93.596 ms - -[0m
+2023-08-16 20:16:23 info: [0mOPTIONS /Game [32m204[0m 0.159 ms - 0[0m
+2023-08-16 20:16:23 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd58a468fe81ac151f7831') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd58a468fe81ac151f7831') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd58a468fe81ac151f7831') }**
+2023-08-16 20:16:23 info: [0mPOST /Game [33m400[0m 42.866 ms - 130[0m
+2023-08-16 20:19:49 info: [0mGET /Game [33m404[0m 1.984 ms - 143[0m
+2023-08-16 20:22:30 info: =================================
+2023-08-16 20:22:30 info: ======= ENV: development =======
+2023-08-16 20:22:30 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 20:23:12 info: =================================
+2023-08-16 20:23:12 info: ======= ENV: development =======
+2023-08-16 20:23:12 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 20:23:22 info: [0mOPTIONS /login [32m204[0m 4.790 ms - 0[0m
+2023-08-16 20:23:22 info: [0mPOST /login [32m200[0m 220.755 ms - 144[0m
+2023-08-16 20:23:23 info: [0mOPTIONS /Game/all [32m204[0m 0.347 ms - 0[0m
+2023-08-16 20:23:23 info: [0mOPTIONS /Game/all [32m204[0m 0.132 ms - 0[0m
+2023-08-16 20:23:23 info: [0mPOST /Game/all [32m200[0m 199.024 ms - -[0m
+2023-08-16 20:23:23 info: [0mPOST /Game/all [32m200[0m 62.662 ms - -[0m
+2023-08-16 20:23:33 info: [0mOPTIONS /Game [32m204[0m 0.170 ms - 0[0m
+2023-08-16 20:23:34 info: [0mPOST /Game [32m201[0m 320.270 ms - -[0m
+2023-08-16 20:23:37 info: [0mOPTIONS /Game/all [32m204[0m 0.238 ms - 0[0m
+2023-08-16 20:23:37 info: [0mPOST /Game/all [32m200[0m 246.504 ms - -[0m
+2023-08-16 20:24:03 info: [0mOPTIONS /Game [32m204[0m 0.180 ms - 0[0m
+2023-08-16 20:24:03 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd5a75c27140acfc263386') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd5a75c27140acfc263386') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd5a75c27140acfc263386') }**
+2023-08-16 20:24:03 info: [0mPOST /Game [33m400[0m 9.815 ms - 130[0m
+2023-08-16 20:28:42 info: =================================
+2023-08-16 20:28:42 info: ======= ENV: development =======
+2023-08-16 20:28:42 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 20:28:52 info: [0mOPTIONS /login [32m204[0m 1.593 ms - 0[0m
+2023-08-16 20:28:52 info: [0mPOST /login [32m200[0m 178.812 ms - 144[0m
+2023-08-16 20:28:52 info: [0mOPTIONS /Game/all [32m204[0m 0.240 ms - 0[0m
+2023-08-16 20:28:52 info: [0mOPTIONS /Game/all [32m204[0m 3.146 ms - 0[0m
+2023-08-16 20:28:52 info: [0mPOST /Game/all [32m200[0m 68.644 ms - -[0m
+2023-08-16 20:28:52 info: [0mPOST /Game/all [32m200[0m 58.835 ms - -[0m
+2023-08-16 20:29:05 info: [0mOPTIONS /Game [32m204[0m 0.326 ms - 0[0m
+2023-08-16 20:29:05 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: game: Path `game` is required., Error: **Error: ValidationError: game: Path `game` is required.** Error: **ValidationError: game: Path `game` is required.**
+2023-08-16 20:29:05 info: [0mPOST /Game [33m400[0m 152.606 ms - 49[0m
+2023-08-16 20:30:11 info: [0mOPTIONS /Game [32m204[0m 0.181 ms - 0[0m
+2023-08-16 20:30:11 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: game: Path `game` is required., Error: **Error: ValidationError: game: Path `game` is required.** Error: **ValidationError: game: Path `game` is required.**
+2023-08-16 20:30:11 info: [0mPOST /Game [33m400[0m 63.834 ms - 49[0m
+2023-08-16 20:36:21 info: =================================
+2023-08-16 20:36:21 info: ======= ENV: development =======
+2023-08-16 20:36:21 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 20:36:34 info: =================================
+2023-08-16 20:36:34 info: ======= ENV: development =======
+2023-08-16 20:36:34 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 20:37:05 info: [0mOPTIONS /Game [32m204[0m 2.394 ms - 0[0m
+2023-08-16 20:37:06 info: [0mPOST /Game [32m201[0m 375.068 ms - -[0m
+2023-08-16 20:37:15 info: [0mOPTIONS /Game/all [32m204[0m 0.229 ms - 0[0m
+2023-08-16 20:37:15 info: [0mPOST /Game/all [32m200[0m 23.909 ms - -[0m
+2023-08-16 20:37:26 info: [0mOPTIONS /Game [32m204[0m 0.390 ms - 0[0m
+2023-08-16 20:37:26 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd5da112cf11ae13a08e49') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd5da112cf11ae13a08e49') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd5da112cf11ae13a08e49') }**
+2023-08-16 20:37:26 info: [0mPOST /Game [33m400[0m 41.294 ms - 130[0m
+2023-08-16 20:39:18 info: =================================
+2023-08-16 20:39:18 info: ======= ENV: development =======
+2023-08-16 20:39:18 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 20:40:03 info: =================================
+2023-08-16 20:40:03 info: ======= ENV: development =======
+2023-08-16 20:40:03 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 20:41:05 info: [0mOPTIONS /login [32m204[0m 1.475 ms - 0[0m
+2023-08-16 20:41:05 info: [0mPOST /login [32m200[0m 183.280 ms - 144[0m
+2023-08-16 20:41:05 info: [0mOPTIONS /Game/all [32m204[0m 0.163 ms - 0[0m
+2023-08-16 20:41:05 info: [0mOPTIONS /Game/all [32m204[0m 0.219 ms - 0[0m
+2023-08-16 20:41:05 info: [0mPOST /Game/all [32m200[0m 58.877 ms - -[0m
+2023-08-16 20:41:05 info: [0mPOST /Game/all [32m200[0m 47.361 ms - -[0m
+2023-08-16 20:42:51 info: [0mOPTIONS /Game [32m204[0m 0.163 ms - 0[0m
+2023-08-16 20:42:51 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: game: Path `game` is required., Error: **Error: ValidationError: game: Path `game` is required.** Error: **ValidationError: game: Path `game` is required.**
+2023-08-16 20:42:51 info: [0mPOST /Game [33m400[0m 63.672 ms - 49[0m
+2023-08-16 20:48:08 info: [0mOPTIONS /Game/find [32m204[0m 0.384 ms - 0[0m
+2023-08-16 20:48:08 info: [0mPOST /Game/find [32m200[0m 195.889 ms - -[0m
+2023-08-16 20:48:24 info: [0mGET /Card/all/64dd50718985b8a98519730d [32m200[0m 11.952 ms - 2[0m
+2023-08-16 20:48:24 info: [0mGET /Card/all/64dd50718985b8a98519730b [32m200[0m 138.786 ms - 2[0m
+2023-08-16 20:48:24 info: [0mGET /Card/all/64dd50718985b8a98519730c [32m200[0m 193.357 ms - 2[0m
+2023-08-16 20:49:44 info: =================================
+2023-08-16 20:49:44 info: ======= ENV: development =======
+2023-08-16 20:49:44 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 20:50:58 info: =================================
+2023-08-16 20:50:58 info: ======= ENV: development =======
+2023-08-16 20:50:58 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 20:52:12 info: =================================
+2023-08-16 20:52:12 info: ======= ENV: development =======
+2023-08-16 20:52:12 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 20:52:22 info: [0mOPTIONS /login [32m204[0m 6.884 ms - 0[0m
+2023-08-16 20:52:22 info: [0mPOST /login [32m200[0m 255.626 ms - 144[0m
+2023-08-16 20:52:22 info: [0mOPTIONS /Game/all [32m204[0m 0.153 ms - 0[0m
+2023-08-16 20:52:23 info: [0mOPTIONS /Game/all [32m204[0m 0.301 ms - 0[0m
+2023-08-16 20:52:23 info: [0mPOST /Game/all [32m200[0m 45.321 ms - -[0m
+2023-08-16 20:52:23 info: [0mPOST /Game/all [32m200[0m 44.544 ms - -[0m
+2023-08-16 20:52:32 info: [0mOPTIONS /Game [32m204[0m 0.150 ms - 0[0m
+2023-08-16 20:52:33 info: [0mPOST /Game [32m201[0m 278.751 ms - 727[0m
+2023-08-16 20:52:35 info: [0mOPTIONS /Game/all [32m204[0m 0.199 ms - 0[0m
+2023-08-16 20:52:35 info: [0mPOST /Game/all [32m200[0m 33.441 ms - -[0m
+2023-08-16 20:53:26 info: [0mOPTIONS /Game [32m204[0m 0.166 ms - 0[0m
+2023-08-16 20:53:26 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: _id: Cast to ObjectId failed for value "64dd614153089eb06bf8e4fet" (type string) at path "_id", Error: **Error: ValidationError: _id: Cast to ObjectId failed for value "64dd614153089eb06bf8e4fet" (type string) at path "_id"** Error: **ValidationError: _id: Cast to ObjectId failed for value "64dd614153089eb06bf8e4fet" (type string) at path "_id"**
+2023-08-16 20:53:26 info: [0mPOST /Game [33m400[0m 4.279 ms - 117[0m
+2023-08-16 20:58:49 info: =================================
+2023-08-16 20:58:49 info: ======= ENV: development =======
+2023-08-16 20:58:49 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 20:59:04 info: [0mOPTIONS /login [32m204[0m 14.134 ms - 0[0m
+2023-08-16 20:59:05 info: [0mPOST /login [32m200[0m 175.303 ms - 144[0m
+2023-08-16 20:59:05 info: [0mOPTIONS /Game/all [32m204[0m 0.359 ms - 0[0m
+2023-08-16 20:59:05 info: [0mOPTIONS /Game/all [32m204[0m 0.230 ms - 0[0m
+2023-08-16 20:59:05 info: [0mPOST /Game/all [32m200[0m 70.420 ms - -[0m
+2023-08-16 20:59:05 info: [0mPOST /Game/all [32m200[0m 170.830 ms - -[0m
+2023-08-16 20:59:15 info: [0mOPTIONS /Game [32m204[0m 0.252 ms - 0[0m
+2023-08-16 20:59:15 info: [0mPOST /Game [32m201[0m 295.514 ms - -[0m
+2023-08-16 20:59:19 info: [0mOPTIONS /Game/all [32m204[0m 0.421 ms - 0[0m
+2023-08-16 20:59:19 info: [0mPOST /Game/all [32m200[0m 30.590 ms - -[0m
+2023-08-16 20:59:26 info: [0mOPTIONS /Game [32m204[0m 0.463 ms - 0[0m
+2023-08-16 20:59:26 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd62d32672a8b0f7485f2b') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd62d32672a8b0f7485f2b') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd62d32672a8b0f7485f2b') }**
+2023-08-16 20:59:26 info: [0mPOST /Game [33m400[0m 21.568 ms - 130[0m
+2023-08-16 21:04:01 info: =================================
+2023-08-16 21:04:01 info: ======= ENV: development =======
+2023-08-16 21:04:01 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 21:05:04 info: =================================
+2023-08-16 21:05:04 info: ======= ENV: development =======
+2023-08-16 21:05:04 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 21:05:48 info: =================================
+2023-08-16 21:05:48 info: ======= ENV: development =======
+2023-08-16 21:05:48 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 21:05:56 info: [0mOPTIONS /login [32m204[0m 6.382 ms - 0[0m
+2023-08-16 21:05:56 info: [0mPOST /login [32m200[0m 189.585 ms - 144[0m
+2023-08-16 21:05:56 info: [0mOPTIONS /Game/all [32m204[0m 0.157 ms - 0[0m
+2023-08-16 21:05:56 info: [0mOPTIONS /Game/all [32m204[0m 5.215 ms - 0[0m
+2023-08-16 21:05:56 info: [0mPOST /Game/all [32m200[0m 62.110 ms - -[0m
+2023-08-16 21:05:56 info: [0mPOST /Game/all [32m200[0m 41.710 ms - -[0m
+2023-08-16 21:06:04 info: [0mOPTIONS /Game [32m204[0m 0.213 ms - 0[0m
+2023-08-16 21:06:04 info: [0mPOST /Game [32m201[0m 227.100 ms - 727[0m
+2023-08-16 21:06:08 info: [0mOPTIONS /Game/all [32m204[0m 0.301 ms - 0[0m
+2023-08-16 21:06:08 info: [0mPOST /Game/all [32m200[0m 137.009 ms - -[0m
+2023-08-16 21:06:16 info: [0mOPTIONS /Game/all [32m204[0m 0.176 ms - 0[0m
+2023-08-16 21:06:16 info: [0mPOST /Game/all [32m200[0m 8.322 ms - -[0m
+2023-08-16 21:06:21 info: [0mOPTIONS /Game [32m204[0m 1.818 ms - 0[0m
+2023-08-16 21:06:21 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: _id: Cast to ObjectId failed for value "0" (type string) at path "_id", Error: **Error: ValidationError: _id: Cast to ObjectId failed for value "0" (type string) at path "_id"** Error: **ValidationError: _id: Cast to ObjectId failed for value "0" (type string) at path "_id"**
+2023-08-16 21:06:21 info: [0mPOST /Game [33m400[0m 41.435 ms - 93[0m
+2023-08-16 21:07:50 info: =================================
+2023-08-16 21:07:50 info: ======= ENV: development =======
+2023-08-16 21:07:50 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 21:08:10 info: =================================
+2023-08-16 21:08:10 info: ======= ENV: development =======
+2023-08-16 21:08:10 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 21:08:21 info: [0mOPTIONS /login [32m204[0m 4.186 ms - 0[0m
+2023-08-16 21:08:21 info: [0mPOST /login [32m200[0m 207.398 ms - 144[0m
+2023-08-16 21:08:22 info: [0mOPTIONS /Game/all [32m204[0m 0.165 ms - 0[0m
+2023-08-16 21:08:22 info: [0mOPTIONS /Game/all [32m204[0m 16.389 ms - 0[0m
+2023-08-16 21:08:22 info: [0mPOST /Game/all [32m200[0m 244.944 ms - -[0m
+2023-08-16 21:08:22 info: [0mPOST /Game/all [32m200[0m 216.524 ms - -[0m
+2023-08-16 21:08:33 info: [0mOPTIONS /Game [32m204[0m 0.151 ms - 0[0m
+2023-08-16 21:08:34 info: [0mPOST /Game [32m201[0m 484.726 ms - -[0m
+2023-08-16 21:08:42 info: [0mOPTIONS /Game/all [32m204[0m 0.191 ms - 0[0m
+2023-08-16 21:08:42 info: [0mPOST /Game/all [32m200[0m 60.574 ms - -[0m
+2023-08-16 21:08:49 info: [0mOPTIONS /Game [32m204[0m 0.161 ms - 0[0m
+2023-08-16 21:08:49 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd6501c26122b242e5a466') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd6501c26122b242e5a466') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64dd6501c26122b242e5a466') }**
+2023-08-16 21:08:49 info: [0mPOST /Game [33m400[0m 38.093 ms - 130[0m
+2023-08-16 21:09:57 info: =================================
+2023-08-16 21:09:57 info: ======= ENV: development =======
+2023-08-16 21:09:57 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 21:10:00 info: [0mOPTIONS /Game [32m204[0m 5.074 ms - 0[0m
+2023-08-16 21:10:01 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: game: Path `game` is required., Error: **Error: ValidationError: game: Path `game` is required.** Error: **ValidationError: game: Path `game` is required.**
+2023-08-16 21:10:01 info: [0mPOST /Game [33m400[0m 319.682 ms - 49[0m
+2023-08-16 21:10:16 info: [0mOPTIONS /Game [32m204[0m 0.157 ms - 0[0m
+2023-08-16 21:10:17 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: game: Path `game` is required., Error: **Error: ValidationError: game: Path `game` is required.** Error: **ValidationError: game: Path `game` is required.**
+2023-08-16 21:10:17 info: [0mPOST /Game [33m400[0m 69.150 ms - 49[0m
+2023-08-16 21:12:32 info: =================================
+2023-08-16 21:12:32 info: ======= ENV: development =======
+2023-08-16 21:12:32 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 21:13:04 info: [0mOPTIONS /login [32m204[0m 1.521 ms - 0[0m
+2023-08-16 21:13:04 info: [0mPOST /login [32m200[0m 291.573 ms - 144[0m
+2023-08-16 21:13:04 info: [0mOPTIONS /Game/all [32m204[0m 0.155 ms - 0[0m
+2023-08-16 21:13:04 info: [0mOPTIONS /Game/all [32m204[0m 0.404 ms - 0[0m
+2023-08-16 21:13:04 info: [0mPOST /Game/all [32m200[0m 63.584 ms - -[0m
+2023-08-16 21:13:04 info: [0mPOST /Game/all [32m200[0m 39.709 ms - -[0m
+2023-08-16 21:14:18 info: [0mOPTIONS /Game [32m204[0m 0.211 ms - 0[0m
+2023-08-16 21:14:18 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: game: Path `game` is required., Error: **Error: ValidationError: game: Path `game` is required.** Error: **ValidationError: game: Path `game` is required.**
+2023-08-16 21:14:18 info: [0mPOST /Game [33m400[0m 127.828 ms - 49[0m
+2023-08-16 21:17:56 info: =================================
+2023-08-16 21:17:56 info: ======= ENV: development =======
+2023-08-16 21:17:56 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 21:18:00 info: [0mOPTIONS /login [32m204[0m 21.319 ms - 0[0m
+2023-08-16 21:18:01 info: [0mPOST /login [32m200[0m 456.122 ms - 144[0m
+2023-08-16 21:18:01 info: [0mOPTIONS /Game/all [32m204[0m 0.172 ms - 0[0m
+2023-08-16 21:18:01 info: [0mOPTIONS /Game/all [32m204[0m 0.142 ms - 0[0m
+2023-08-16 21:18:01 info: [0mPOST /Game/all [32m200[0m 329.724 ms - -[0m
+2023-08-16 21:18:01 info: [0mPOST /Game/all [32m200[0m 229.682 ms - -[0m
+2023-08-16 21:18:31 info: [0mOPTIONS /signup [32m204[0m 0.158 ms - 0[0m
+2023-08-16 21:18:32 info: [0mPOST /signup [32m201[0m 309.960 ms - 122[0m
+2023-08-16 21:18:43 info: [0mOPTIONS /login [32m204[0m 0.292 ms - 0[0m
+2023-08-16 21:18:43 info: [0mPOST /login [32m200[0m 163.309 ms - 144[0m
+2023-08-16 21:18:43 info: [0mOPTIONS /Game/all [32m204[0m 0.162 ms - 0[0m
+2023-08-16 21:18:43 info: [0mOPTIONS /Game/all [32m204[0m 0.387 ms - 0[0m
+2023-08-16 21:18:43 info: [0mOPTIONS /Game/all [32m204[0m 0.173 ms - 0[0m
+2023-08-16 21:18:44 info: [0mPOST /Game/all [32m200[0m 98.880 ms - 2[0m
+2023-08-16 21:18:44 info: [0mPOST /Game/all [32m200[0m 99.342 ms - 2[0m
+2023-08-16 21:18:44 info: [0mPOST /Game/all [32m200[0m 179.262 ms - 2[0m
+2023-08-16 21:19:03 info: [0mOPTIONS /Game [32m204[0m 0.172 ms - 0[0m
+2023-08-16 21:19:03 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: game: Path `game` is required., Error: **Error: ValidationError: game: Path `game` is required.** Error: **ValidationError: game: Path `game` is required.**
+2023-08-16 21:19:03 info: [0mPOST /Game [33m400[0m 141.834 ms - 49[0m
+2023-08-16 21:21:04 info: =================================
+2023-08-16 21:21:04 info: ======= ENV: development =======
+2023-08-16 21:21:04 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 21:21:43 info: [0mOPTIONS /login [32m204[0m 1.424 ms - 0[0m
+2023-08-16 21:21:43 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, Error: **Error: email must be an email** Error: **email must be an email**
+2023-08-16 21:21:43 info: [0mPOST /login [33m400[0m 32.668 ms - 24[0m
+2023-08-16 21:21:43 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, Error: **Error: email must be an email** Error: **email must be an email**
+2023-08-16 21:21:43 info: [0mPOST /login [33m400[0m 5.994 ms - 24[0m
+2023-08-16 21:21:50 info: [0mOPTIONS /login [32m204[0m 0.152 ms - 0[0m
+2023-08-16 21:21:50 info: [0mPOST /login [32m200[0m 148.757 ms - 144[0m
+2023-08-16 21:21:50 info: [0mOPTIONS /Game/all [32m204[0m 0.160 ms - 0[0m
+2023-08-16 21:21:50 info: [0mPOST /Game/all [32m200[0m 107.752 ms - 695[0m
+2023-08-16 21:21:50 info: [0mPOST /Game/all [32m200[0m 80.856 ms - 695[0m
+2023-08-16 21:22:01 info: [0mOPTIONS /Game [32m204[0m 0.475 ms - 0[0m
+2023-08-16 21:22:01 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: game: Path `game` is required., Error: **Error: ValidationError: game: Path `game` is required.** Error: **ValidationError: game: Path `game` is required.**
+2023-08-16 21:22:01 info: [0mPOST /Game [33m400[0m 136.751 ms - 49[0m
+2023-08-16 21:22:51 info: [0mOPTIONS /login [32m204[0m 24.640 ms - 0[0m
+2023-08-16 21:22:51 info: [0mPOST /login [32m200[0m 173.934 ms - 144[0m
+2023-08-16 21:22:51 info: [0mOPTIONS /Game/all [32m204[0m 0.160 ms - 0[0m
+2023-08-16 21:22:51 info: [0mOPTIONS /Game/all [32m204[0m 0.153 ms - 0[0m
+2023-08-16 21:22:52 info: [0mPOST /Game/all [32m200[0m 133.023 ms - -[0m
+2023-08-16 21:22:52 info: [0mPOST /Game/all [32m200[0m 138.166 ms - -[0m
+2023-08-16 21:23:02 info: [0mOPTIONS /Game [32m204[0m 0.193 ms - 0[0m
+2023-08-16 21:23:02 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: game: Path `game` is required., Error: **Error: ValidationError: game: Path `game` is required.** Error: **ValidationError: game: Path `game` is required.**
+2023-08-16 21:23:02 info: [0mPOST /Game [33m400[0m 180.195 ms - 49[0m
+2023-08-16 21:23:16 info: [0mOPTIONS /login [32m204[0m 0.267 ms - 0[0m
+2023-08-16 21:23:16 info: [0mPOST /login [32m200[0m 148.986 ms - 144[0m
+2023-08-16 21:23:16 info: [0mOPTIONS /Game/all [32m204[0m 0.174 ms - 0[0m
+2023-08-16 21:23:16 info: [0mOPTIONS /Game/all [32m204[0m 0.191 ms - 0[0m
+2023-08-16 21:23:17 info: [0mPOST /Game/all [32m200[0m 263.107 ms - -[0m
+2023-08-16 21:23:17 info: [0mPOST /Game/all [32m200[0m 356.515 ms - -[0m
+2023-08-16 21:25:57 info: [0mOPTIONS /Game [32m204[0m 0.197 ms - 0[0m
+2023-08-16 21:25:58 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: game: Path `game` is required., Error: **Error: ValidationError: game: Path `game` is required.** Error: **ValidationError: game: Path `game` is required.**
+2023-08-16 21:25:58 info: [0mPOST /Game [33m400[0m 71.229 ms - 49[0m
+2023-08-16 21:29:08 info: [0mOPTIONS /login [32m204[0m 0.389 ms - 0[0m
+2023-08-16 21:29:08 info: [0mPOST /login [32m200[0m 144.093 ms - 144[0m
+2023-08-16 21:29:08 info: [0mOPTIONS /Game/all [32m204[0m 0.152 ms - 0[0m
+2023-08-16 21:29:08 info: [0mPOST /Game/all [32m200[0m 141.984 ms - -[0m
+2023-08-16 21:29:08 info: [0mPOST /Game/all [32m200[0m 77.790 ms - -[0m
+2023-08-16 21:29:15 info: [0mOPTIONS /Game [32m204[0m 0.184 ms - 0[0m
+2023-08-16 21:29:15 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: game: Path `game` is required., Error: **Error: ValidationError: game: Path `game` is required.** Error: **ValidationError: game: Path `game` is required.**
+2023-08-16 21:29:15 info: [0mPOST /Game [33m400[0m 17.372 ms - 49[0m
+2023-08-16 21:30:33 info: =================================
+2023-08-16 21:30:33 info: ======= ENV: development =======
+2023-08-16 21:30:33 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 21:32:02 info: =================================
+2023-08-16 21:32:02 info: ======= ENV: development =======
+2023-08-16 21:32:02 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 21:33:04 info: =================================
+2023-08-16 21:33:04 info: ======= ENV: development =======
+2023-08-16 21:33:04 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 21:33:49 info: [0mOPTIONS /login [32m204[0m 7.168 ms - 0[0m
+2023-08-16 21:33:50 info: [0mPOST /login [32m200[0m 256.188 ms - 144[0m
+2023-08-16 21:33:50 info: [0mOPTIONS /Game/all [32m204[0m 0.787 ms - 0[0m
+2023-08-16 21:33:50 info: [0mOPTIONS /Game/all [32m204[0m 0.181 ms - 0[0m
+2023-08-16 21:33:50 info: [0mPOST /Game/all [32m200[0m 235.204 ms - -[0m
+2023-08-16 21:33:50 info: [0mPOST /Game/all [32m200[0m 131.143 ms - -[0m
+2023-08-16 21:33:57 info: [0mOPTIONS /Game [32m204[0m 0.166 ms - 0[0m
+2023-08-16 21:33:57 error: [POST] /Game >> StatusCode:: 400, Message:: Error: não pode criar um game com o mesmo nome, Error: **Error: Error: não pode criar um game com o mesmo nome** Error: **Error: não pode criar um game com o mesmo nome**
+2023-08-16 21:33:57 info: [0mPOST /Game [33m400[0m 93.341 ms - 49[0m
+2023-08-16 21:34:37 info: [0mOPTIONS /login [32m204[0m 0.197 ms - 0[0m
+2023-08-16 21:34:37 info: [0mPOST /login [32m200[0m 186.835 ms - 144[0m
+2023-08-16 21:34:37 info: [0mOPTIONS /Game/all [32m204[0m 0.631 ms - 0[0m
+2023-08-16 21:34:37 info: [0mPOST /Game/all [32m200[0m 231.234 ms - -[0m
+2023-08-16 21:34:38 info: [0mPOST /Game/all [32m200[0m 210.535 ms - -[0m
+2023-08-16 21:36:58 info: =================================
+2023-08-16 21:36:58 info: ======= ENV: development =======
+2023-08-16 21:36:58 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 21:37:14 info: [0mOPTIONS /Game [32m204[0m 2.075 ms - 0[0m
+2023-08-16 21:37:14 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: game: Path `game` is required., Error: **Error: ValidationError: game: Path `game` is required.** Error: **ValidationError: game: Path `game` is required.**
+2023-08-16 21:37:14 info: [0mPOST /Game [33m400[0m 174.318 ms - 49[0m
+2023-08-16 21:45:02 info: =================================
+2023-08-16 21:45:02 info: ======= ENV: development =======
+2023-08-16 21:45:02 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-16 21:45:34 info: [0mOPTIONS /login [32m204[0m 2.288 ms - 0[0m
+2023-08-16 21:45:34 info: [0mPOST /login [32m200[0m 206.034 ms - 144[0m
+2023-08-16 21:45:34 info: [0mOPTIONS /Game/all [32m204[0m 0.223 ms - 0[0m
+2023-08-16 21:45:35 info: [0mOPTIONS /Game/all [32m204[0m 0.138 ms - 0[0m
+2023-08-16 21:45:35 info: [0mPOST /Game/all [32m200[0m 312.172 ms - -[0m
+2023-08-16 21:45:35 info: [0mPOST /Game/all [32m200[0m 121.323 ms - -[0m
+2023-08-16 21:45:49 info: [0mOPTIONS /Game [32m204[0m 2.052 ms - 0[0m
+2023-08-16 21:45:49 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: game: Path `game` is required., Error: **Error: ValidationError: game: Path `game` is required.** Error: **ValidationError: game: Path `game` is required.**
+2023-08-16 21:45:49 info: [0mPOST /Game [33m400[0m 203.639 ms - 49[0m
+2023-08-16 21:46:45 info: [0mOPTIONS /Game/find [32m204[0m 0.164 ms - 0[0m
+2023-08-16 21:46:45 info: [0mPOST /Game/find [32m200[0m 124.220 ms - 725[0m
+2023-08-16 21:46:53 info: [0mOPTIONS /Game [32m204[0m 0.159 ms - 0[0m
+2023-08-16 21:46:53 info: [0mPUT /Game [32m200[0m 173.693 ms - 697[0m
+2023-08-16 21:47:08 info: [0mOPTIONS /Deck [32m204[0m 0.227 ms - 0[0m
+2023-08-16 21:47:08 error: [POST] /Deck >> StatusCode:: 500, Message:: Deck validation failed: description: Path `description` is required., Error: **ValidationError: description: Path `description` is required.** Error: **Deck validation failed: description: Path `description` is required.**
+2023-08-16 21:47:08 info: [0mPOST /Deck [31m500[0m 36.180 ms - 70[0m
+2023-08-16 21:47:16 info: [0mOPTIONS /Deck [32m204[0m 0.136 ms - 0[0m
+2023-08-16 21:47:16 error: [POST] /Deck >> StatusCode:: 500, Message:: Deck validation failed: description: Path `description` is required., Error: **ValidationError: description: Path `description` is required.** Error: **Deck validation failed: description: Path `description` is required.**
+2023-08-16 21:47:16 info: [0mPOST /Deck [31m500[0m 8.460 ms - 70[0m
+2023-08-16 21:48:31 info: [0mOPTIONS /Game [32m204[0m 0.114 ms - 0[0m
+2023-08-16 21:48:31 info: [0mPUT /Game [32m200[0m 253.073 ms - 399[0m
+2023-08-16 21:48:43 info: [0mOPTIONS /Deck [32m204[0m 0.120 ms - 0[0m
+2023-08-16 21:48:43 error: [PUT] /Deck >> StatusCode:: 409, Message:: Deck not found while updating, Error: **Error: Deck not found while updating** Error: **Deck not found while updating**
+2023-08-16 21:48:43 info: [0mPUT /Deck [33m409[0m 65.090 ms - 31[0m
+2023-08-16 21:48:49 info: [0mOPTIONS /Deck [32m204[0m 0.185 ms - 0[0m
+2023-08-16 21:48:49 error: [POST] /Deck >> StatusCode:: 500, Message:: Deck validation failed: description: Path `description` is required., Error: **ValidationError: description: Path `description` is required.** Error: **Deck validation failed: description: Path `description` is required.**
+2023-08-16 21:48:49 info: [0mPOST /Deck [31m500[0m 158.148 ms - 70[0m
+2023-08-16 21:50:08 info: [0mOPTIONS /Deck [32m204[0m 0.131 ms - 0[0m
+2023-08-16 21:50:08 error: [POST] /Deck >> StatusCode:: 500, Message:: Deck validation failed: description: Path `description` is required., Error: **ValidationError: description: Path `description` is required.** Error: **Deck validation failed: description: Path `description` is required.**
+2023-08-16 21:50:08 info: [0mPOST /Deck [31m500[0m 28.226 ms - 70[0m
+2023-08-16 21:51:18 info: [0mOPTIONS /Game/all [32m204[0m 0.115 ms - 0[0m
+2023-08-16 21:51:18 info: [0mPOST /Game/all [32m200[0m 94.985 ms - -[0m
+2023-08-16 21:51:24 info: [0mOPTIONS /Game/find [32m204[0m 0.130 ms - 0[0m
+2023-08-16 21:51:24 info: [0mPOST /Game/find [32m200[0m 71.159 ms - 725[0m
+2023-08-16 21:51:35 info: [0mOPTIONS /Game/all [32m204[0m 0.126 ms - 0[0m
+2023-08-16 21:51:35 info: [0mPOST /Game/all [32m200[0m 143.941 ms - -[0m
+2023-08-16 21:51:37 info: [0mOPTIONS /Game/find [32m204[0m 0.130 ms - 0[0m
+2023-08-16 21:51:37 info: [0mPOST /Game/find [32m200[0m 25.160 ms - 725[0m
+2023-08-16 21:52:21 info: [0mOPTIONS /Game [32m204[0m 0.131 ms - 0[0m
+2023-08-16 21:52:21 info: [0mPUT /Game [32m200[0m 193.908 ms - 683[0m
+2023-08-16 21:53:51 info: [0mOPTIONS /Deck [32m204[0m 0.120 ms - 0[0m
+2023-08-16 21:53:51 info: deck just created: {
+  _id: 64dd6f9fdcd8fbb5b21d570e,
+  game: '64dd68291db649b3efd82d85',
+  color: '#6f7a7c',
+  description: 'teste',
+  name: 'teste',
+  deckBack: {
+    _id: 64dd6f9fdcd8fbb5b21d570b,
+    answers: true,
+    cost: true,
+    earning: true,
+    effect: true,
+    level: true,
+    title: true
+  },
+  deckFront: {
+    _id: 64dd6f9fdcd8fbb5b21d570c,
+    description: true,
+    art: true,
+    cost: true,
+    earning: true,
+    effect: true,
+    level: true,
+    title: true
+  },
+  __v: 0
+}
+2023-08-16 21:53:51 info: [0mPOST /Deck [32m201[0m 143.462 ms - 403[0m
+2023-08-16 21:54:15 info: [0mGET /Card/all/64dd6f9fdcd8fbb5b21d570e [32m200[0m 62.211 ms - 2[0m
+2023-08-16 21:54:19 info: [0mGET /Card/all/64dd6f9fdcd8fbb5b21d570e [36m304[0m 11.304 ms - -[0m
+2023-08-16 21:54:26 info: [0mGET /Card/all/64dd6f9fdcd8fbb5b21d570e [36m304[0m 73.831 ms - -[0m
+2023-08-16 21:54:30 info: [0mGET /Card/all/64dd6f9fdcd8fbb5b21d570e [36m304[0m 3.831 ms - -[0m
+2023-08-16 21:54:38 info: [0mOPTIONS /Game [32m204[0m 0.103 ms - 0[0m
+2023-08-16 21:54:39 info: [0mPUT /Game [32m200[0m 235.951 ms - 683[0m
+2023-08-16 21:56:39 info: [0mOPTIONS /login [32m204[0m 1.335 ms - 0[0m
+2023-08-16 21:56:39 info: [0mPOST /login [32m200[0m 236.864 ms - 144[0m
+2023-08-16 21:56:40 info: [0mOPTIONS /Game/all [32m204[0m 0.151 ms - 0[0m
+2023-08-16 21:56:40 info: [0mPOST /Game/all [32m200[0m 129.066 ms - -[0m
+2023-08-16 21:57:00 info: [0mOPTIONS /Game [32m204[0m 0.164 ms - 0[0m
+2023-08-16 21:57:00 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: game: Path `game` is required., Error: **Error: ValidationError: game: Path `game` is required.** Error: **ValidationError: game: Path `game` is required.**
+2023-08-16 21:57:00 info: [0mPOST /Game [33m400[0m 231.163 ms - 49[0m
+2023-08-16 21:57:23 info: [0mOPTIONS /Game/all [32m204[0m 0.275 ms - 0[0m
+2023-08-16 21:57:23 info: [0mPOST /Game/all [32m200[0m 110.135 ms - -[0m
+2023-08-16 21:58:11 info: [0mOPTIONS /login [32m204[0m 0.111 ms - 0[0m
+2023-08-16 21:58:12 info: [0mPOST /login [32m200[0m 261.407 ms - 144[0m
+2023-08-16 21:58:12 info: [0mOPTIONS /Game/all [32m204[0m 0.145 ms - 0[0m
+2023-08-16 21:58:12 info: [0mOPTIONS /Game/all [32m204[0m 0.117 ms - 0[0m
+2023-08-16 21:58:12 info: [0mPOST /Game/all [32m200[0m 72.404 ms - -[0m
+2023-08-16 21:58:12 info: [0mPOST /Game/all [32m200[0m 350.566 ms - -[0m
+2023-08-16 21:58:19 info: [0mOPTIONS /Game [32m204[0m 0.154 ms - 0[0m
+2023-08-16 21:58:20 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: game: Path `game` is required., Error: **Error: ValidationError: game: Path `game` is required.** Error: **ValidationError: game: Path `game` is required.**
+2023-08-16 21:58:20 info: [0mPOST /Game [33m400[0m 257.602 ms - 49[0m
+2023-08-16 22:01:06 info: [0mOPTIONS /login [32m204[0m 0.111 ms - 0[0m
+2023-08-16 22:01:06 info: [0mPOST /login [32m200[0m 151.566 ms - 144[0m
+2023-08-16 22:01:06 info: [0mOPTIONS /Game/all [32m204[0m 0.125 ms - 0[0m
+2023-08-16 22:01:06 info: [0mPOST /Game/all [32m200[0m 12.209 ms - -[0m
+2023-08-16 22:01:12 info: [0mOPTIONS /Game [32m204[0m 0.116 ms - 0[0m
+2023-08-16 22:01:12 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: game: Path `game` is required., Error: **Error: ValidationError: game: Path `game` is required.** Error: **ValidationError: game: Path `game` is required.**
+2023-08-16 22:01:12 info: [0mPOST /Game [33m400[0m 113.141 ms - 49[0m
+2023-08-16 22:01:29 info: [0mOPTIONS /login [32m204[0m 0.357 ms - 0[0m
+2023-08-16 22:01:29 info: [0mPOST /login [32m200[0m 184.594 ms - 144[0m
+2023-08-16 22:01:29 info: [0mOPTIONS /Game/all [32m204[0m 0.140 ms - 0[0m
+2023-08-16 22:01:29 info: [0mOPTIONS /Game/all [32m204[0m 0.109 ms - 0[0m
+2023-08-16 22:01:29 info: [0mPOST /Game/all [32m200[0m 51.289 ms - -[0m
+2023-08-16 22:01:29 info: [0mPOST /Game/all [32m200[0m 173.687 ms - -[0m
+2023-08-16 22:01:55 info: [0mOPTIONS /Game [32m204[0m 21.521 ms - 0[0m
+2023-08-16 22:01:55 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: game: Path `game` is required., Error: **Error: ValidationError: game: Path `game` is required.** Error: **ValidationError: game: Path `game` is required.**
+2023-08-16 22:01:55 info: [0mPOST /Game [33m400[0m 105.197 ms - 49[0m
+2023-08-16 22:02:18 info: [0mOPTIONS /login [32m204[0m 0.125 ms - 0[0m
+2023-08-16 22:02:18 info: [0mPOST /login [32m200[0m 154.568 ms - 144[0m
+2023-08-16 22:02:18 info: [0mOPTIONS /Game/all [32m204[0m 0.105 ms - 0[0m
+2023-08-16 22:02:19 info: [0mPOST /Game/all [32m200[0m 146.402 ms - -[0m
+2023-08-16 22:02:19 info: [0mPOST /Game/all [32m200[0m 192.495 ms - -[0m
+2023-08-16 22:08:31 info: [0mOPTIONS /login [32m204[0m 0.160 ms - 0[0m
+2023-08-16 22:08:31 info: [0mPOST /login [32m200[0m 166.437 ms - 144[0m
+2023-08-16 22:08:32 info: [0mOPTIONS /Game/all [32m204[0m 0.395 ms - 0[0m
+2023-08-16 22:08:32 info: [0mPOST /Game/all [32m200[0m 41.909 ms - -[0m
+2023-08-16 22:08:32 info: [0mPOST /Game/all [32m200[0m 20.919 ms - -[0m
+2023-08-16 22:08:40 info: [0mOPTIONS /Game [32m204[0m 16.832 ms - 0[0m
+2023-08-16 22:08:40 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: game: Path `game` is required., Error: **Error: ValidationError: game: Path `game` is required.** Error: **ValidationError: game: Path `game` is required.**
+2023-08-16 22:08:40 info: [0mPOST /Game [33m400[0m 88.775 ms - 49[0m
+2023-08-16 22:09:50 info: [0mOPTIONS /login [32m204[0m 0.114 ms - 0[0m
+2023-08-16 22:09:51 info: [0mPOST /login [32m200[0m 155.143 ms - 144[0m
+2023-08-16 22:09:51 info: [0mOPTIONS /Game/all [32m204[0m 0.199 ms - 0[0m
+2023-08-16 22:09:51 info: [0mOPTIONS /Game/all [32m204[0m 0.107 ms - 0[0m
+2023-08-16 22:09:51 info: [0mPOST /Game/all [32m200[0m 19.352 ms - -[0m
+2023-08-16 22:09:51 info: [0mPOST /Game/all [32m200[0m 17.631 ms - -[0m
+2023-08-16 22:10:01 info: [0mOPTIONS /Game [32m204[0m 0.149 ms - 0[0m
+2023-08-16 22:10:01 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: game: Path `game` is required., Error: **Error: ValidationError: game: Path `game` is required.** Error: **ValidationError: game: Path `game` is required.**
+2023-08-16 22:10:01 info: [0mPOST /Game [33m400[0m 75.487 ms - 49[0m
+2023-08-16 22:12:54 info: [0mOPTIONS /login [32m204[0m 1.246 ms - 0[0m
+2023-08-16 22:12:54 info: [0mPOST /login [32m200[0m 144.115 ms - 144[0m
+2023-08-16 22:12:54 info: [0mOPTIONS /Game/all [32m204[0m 80.259 ms - 0[0m
+2023-08-16 22:12:54 info: [0mOPTIONS /Game/all [32m204[0m 0.102 ms - 0[0m
+2023-08-16 22:12:54 info: [0mPOST /Game/all [32m200[0m 9.407 ms - -[0m
+2023-08-16 22:12:54 info: [0mPOST /Game/all [32m200[0m 51.231 ms - -[0m
+2023-08-16 22:13:07 info: [0mOPTIONS /Game [32m204[0m 0.111 ms - 0[0m
+2023-08-16 22:13:07 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: game: Path `game` is required., Error: **Error: ValidationError: game: Path `game` is required.** Error: **ValidationError: game: Path `game` is required.**
+2023-08-16 22:13:07 info: [0mPOST /Game [33m400[0m 94.384 ms - 49[0m
+2023-08-16 22:17:54 info: [0mOPTIONS /login [32m204[0m 0.229 ms - 0[0m
+2023-08-16 22:17:54 info: [0mPOST /login [32m200[0m 177.179 ms - 144[0m
+2023-08-16 22:17:54 info: [0mOPTIONS /Game/all [32m204[0m 0.101 ms - 0[0m
+2023-08-16 22:17:55 info: [0mPOST /Game/all [32m200[0m 35.414 ms - -[0m
+2023-08-16 22:18:22 info: [0mOPTIONS /Game/all [32m204[0m 0.167 ms - 0[0m
+2023-08-16 22:18:22 info: [0mPOST /Game/all [32m200[0m 192.664 ms - 2[0m
+2023-08-16 22:18:37 info: [0mOPTIONS /signup [32m204[0m 0.119 ms - 0[0m
+2023-08-16 22:18:38 info: [0mPOST /signup [32m201[0m 418.302 ms - 122[0m
+2023-08-16 22:18:45 info: [0mOPTIONS /login [32m204[0m 0.112 ms - 0[0m
+2023-08-16 22:18:45 info: [0mPOST /login [32m200[0m 149.747 ms - 144[0m
+2023-08-16 22:18:46 info: [0mOPTIONS /Game/all [32m204[0m 0.121 ms - 0[0m
+2023-08-16 22:18:46 info: [0mOPTIONS /Game/all [32m204[0m 0.126 ms - 0[0m
+2023-08-16 22:18:46 info: [0mPOST /Game/all [32m200[0m 70.190 ms - 2[0m
+2023-08-16 22:18:46 info: [0mPOST /Game/all [32m200[0m 83.600 ms - 2[0m
+2023-08-16 22:18:54 info: [0mOPTIONS /Game [32m204[0m 0.101 ms - 0[0m
+2023-08-16 22:18:54 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: game: Path `game` is required., Error: **Error: ValidationError: game: Path `game` is required.** Error: **ValidationError: game: Path `game` is required.**
+2023-08-16 22:18:54 info: [0mPOST /Game [33m400[0m 207.516 ms - 49[0m
+2023-08-16 22:18:54 info: [0mOPTIONS /Game/all [32m204[0m 0.105 ms - 0[0m
+2023-08-16 22:18:54 info: [0mPOST /Game/all [32m200[0m 116.481 ms - 695[0m
+2023-08-16 22:20:30 info: [0mOPTIONS /Game [32m204[0m 0.142 ms - 0[0m
+2023-08-16 22:20:30 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: game: Path `game` is required., Error: **Error: ValidationError: game: Path `game` is required.** Error: **ValidationError: game: Path `game` is required.**
+2023-08-16 22:20:30 info: [0mPOST /Game [33m400[0m 185.277 ms - 49[0m
+2023-08-16 22:20:30 info: [0mOPTIONS /Game/all [32m204[0m 0.113 ms - 0[0m
+2023-08-16 22:20:30 info: [0mPOST /Game/all [32m200[0m 35.723 ms - -[0m

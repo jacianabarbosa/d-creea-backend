@@ -1,0 +1,21 @@
+2023-06-29 21:33:42 info: =================================
+2023-06-29 21:33:42 info: ======= ENV: development =======
+2023-06-29 21:33:42 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-06-29 21:34:05 info: [0mGET /api-docs/ [32m200[0m 25.532 ms - -[0m
+2023-06-29 21:34:05 info: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 0.898 ms - -[0m
+2023-06-29 21:34:05 info: [0mGET /api-docs/swagger-ui.css [32m200[0m 8.098 ms - -[0m
+2023-06-29 21:34:05 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [32m200[0m 13.850 ms - -[0m
+2023-06-29 21:34:06 info: [0mGET /api-docs/swagger-ui-bundle.js [32m200[0m 8.866 ms - -[0m
+2023-06-29 21:34:07 info: [0mGET /api-docs/favicon-32x32.png [32m200[0m 1.259 ms - 628[0m
+2023-06-29 21:34:12 info: [0mGET / [32m200[0m 0.852 ms - 2[0m
+2023-06-29 21:34:12 info: [0mGET /favicon.ico [33m404[0m 2.994 ms - 150[0m
+2023-06-29 21:36:11 info: [0mGET / [36m304[0m 6.043 ms - -[0m
+2023-06-29 21:39:27 info: =================================
+2023-06-29 21:39:27 info: ======= ENV: development =======
+2023-06-29 21:39:27 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-06-29 21:39:47 info: [0mOPTIONS /login [32m204[0m 1.523 ms - 0[0m
+2023-06-29 21:39:57 error: [POST] /login >> StatusCode:: 500, Message:: Operation `users.findOne()` buffering timed out after 10000ms, Error: **MongooseError: Operation `users.findOne()` buffering timed out after 10000ms** Error: **Operation `users.findOne()` buffering timed out after 10000ms**
+2023-06-29 21:39:57 info: [0mPOST /login [31m500[0m 10067.816 ms - 63[0m
+2023-06-29 21:40:22 info: =================================
+2023-06-29 21:40:22 info: ======= ENV: development =======
+2023-06-29 21:40:22 info: 🚀 App listening on http://localhost:42041/api-docs/

@@ -1,0 +1,476 @@
+2023-08-04 00:03:06 info: =================================
+2023-08-04 00:03:06 info: ======= ENV: development =======
+2023-08-04 00:03:06 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 00:05:18 info: =================================
+2023-08-04 00:05:18 info: ======= ENV: development =======
+2023-08-04 00:05:18 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 00:05:33 info: =================================
+2023-08-04 00:05:33 info: ======= ENV: development =======
+2023-08-04 00:05:33 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 00:05:50 info: [0mOPTIONS /login [32m204[0m 1.828 ms - 0[0m
+2023-08-04 00:05:50 info: [0mPOST /login [32m200[0m 318.214 ms - 144[0m
+2023-08-04 00:05:51 info: [0mOPTIONS /Game/all [32m204[0m 0.198 ms - 0[0m
+2023-08-04 00:05:51 info: [0mOPTIONS /Game/all [32m204[0m 0.164 ms - 0[0m
+2023-08-04 00:05:51 info: [0mPOST /Game/all [32m200[0m 33.654 ms - 693[0m
+2023-08-04 00:05:51 info: [0mPOST /Game/all [32m200[0m 32.313 ms - 693[0m
+2023-08-04 00:05:59 info: [0mOPTIONS /Game [32m204[0m 0.151 ms - 0[0m
+2023-08-04 00:05:59 error: [POST] /Game >> StatusCode:: 400, Message:: TypeError: Cannot read property 'length' of null, Error: **Error: TypeError: Cannot read property 'length' of null** Error: **TypeError: Cannot read property 'length' of null**
+2023-08-04 00:05:59 info: [0mPOST /Game [33m400[0m 147.878 ms - 50[0m
+2023-08-04 00:06:14 info: =================================
+2023-08-04 00:06:14 info: ======= ENV: development =======
+2023-08-04 00:06:14 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 00:06:19 info: [0mOPTIONS /Game [32m204[0m 2.679 ms - 0[0m
+2023-08-04 00:06:20 info: [0mPOST /Game [32m201[0m 437.121 ms - -[0m
+2023-08-04 00:06:30 info: [0mOPTIONS /Game [32m204[0m 0.161 ms - 0[0m
+2023-08-04 00:06:30 info: [0mPUT /Game [32m200[0m 196.362 ms - 692[0m
+2023-08-04 00:06:32 info: [0mOPTIONS /Game/all [32m204[0m 0.151 ms - 0[0m
+2023-08-04 00:06:32 info: [0mPOST /Game/all [32m200[0m 5.079 ms - -[0m
+2023-08-04 00:10:06 info: =================================
+2023-08-04 00:10:06 info: ======= ENV: development =======
+2023-08-04 00:10:06 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 00:10:18 info: =================================
+2023-08-04 00:10:18 info: ======= ENV: development =======
+2023-08-04 00:10:18 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 00:11:01 info: [0mOPTIONS /signup [32m204[0m 7.664 ms - 0[0m
+2023-08-04 00:11:01 info: [0mPOST /signup [32m201[0m 402.516 ms - 119[0m
+2023-08-04 00:11:10 info: [0mOPTIONS /login [32m204[0m 0.625 ms - 0[0m
+2023-08-04 00:11:10 info: [0mPOST /login [32m200[0m 189.912 ms - 141[0m
+2023-08-04 00:11:10 info: [0mOPTIONS /Game/all [32m204[0m 0.158 ms - 0[0m
+2023-08-04 00:11:10 info: [0mOPTIONS /Game/all [32m204[0m 0.614 ms - 0[0m
+2023-08-04 00:11:10 info: [0mOPTIONS /Game/all [32m204[0m 0.175 ms - 0[0m
+2023-08-04 00:11:10 info: [0mPOST /Game/all [32m200[0m 26.720 ms - 2[0m
+2023-08-04 00:11:10 info: [0mPOST /Game/all [32m200[0m 24.397 ms - 2[0m
+2023-08-04 00:11:10 info: [0mPOST /Game/all [32m200[0m 49.107 ms - 2[0m
+2023-08-04 00:11:14 info: [0mOPTIONS /Game [32m204[0m 0.177 ms - 0[0m
+2023-08-04 00:11:15 info: [0mPOST /Game [32m201[0m 838.158 ms - -[0m
+2023-08-04 00:11:17 info: [0mPUT /Game [32m200[0m 137.340 ms - 691[0m
+2023-08-04 00:11:21 info: [0mOPTIONS /Game/all [32m204[0m 0.430 ms - 0[0m
+2023-08-04 00:11:21 info: [0mPOST /Game/all [32m200[0m 34.763 ms - 693[0m
+2023-08-04 00:11:27 info: [0mOPTIONS /Game [32m204[0m 0.157 ms - 0[0m
+2023-08-04 00:11:27 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6c52e3cf82029fc1478b') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6c52e3cf82029fc1478b') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6c52e3cf82029fc1478b') }**
+2023-08-04 00:11:27 info: [0mPOST /Game [33m400[0m 97.105 ms - 130[0m
+2023-08-04 00:11:44 info: =================================
+2023-08-04 00:11:44 info: ======= ENV: development =======
+2023-08-04 00:11:44 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 00:11:59 info: [0mOPTIONS /Game [32m204[0m 2.214 ms - 0[0m
+2023-08-04 00:12:00 info: [0mPOST /Game [32m201[0m 1294.997 ms - -[0m
+2023-08-04 00:12:04 info: [0mOPTIONS /Game/all [32m204[0m 0.226 ms - 0[0m
+2023-08-04 00:12:04 info: [0mPOST /Game/all [32m200[0m 26.354 ms - -[0m
+2023-08-04 00:12:15 info: [0mOPTIONS /Game [32m204[0m 0.250 ms - 0[0m
+2023-08-04 00:12:15 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6c7ffa096902c732c25c') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6c7ffa096902c732c25c') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6c7ffa096902c732c25c') }**
+2023-08-04 00:12:15 info: [0mPOST /Game [33m400[0m 72.054 ms - 130[0m
+2023-08-04 00:12:23 info: [0mOPTIONS /Game [32m204[0m 0.185 ms - 0[0m
+2023-08-04 00:12:23 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6c7ffa096902c732c25c') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6c7ffa096902c732c25c') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6c7ffa096902c732c25c') }**
+2023-08-04 00:12:23 info: [0mPOST /Game [33m400[0m 22.133 ms - 130[0m
+2023-08-04 00:12:29 info: [0mOPTIONS /Game [32m204[0m 0.189 ms - 0[0m
+2023-08-04 00:12:29 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6c7ffa096902c732c25c') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6c7ffa096902c732c25c') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6c7ffa096902c732c25c') }**
+2023-08-04 00:12:29 info: [0mPOST /Game [33m400[0m 61.457 ms - 130[0m
+2023-08-04 00:12:52 info: =================================
+2023-08-04 00:12:52 info: ======= ENV: development =======
+2023-08-04 00:12:52 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 00:13:15 info: =================================
+2023-08-04 00:13:15 info: ======= ENV: development =======
+2023-08-04 00:13:15 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 00:13:24 info: =================================
+2023-08-04 00:13:24 info: ======= ENV: development =======
+2023-08-04 00:13:24 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 00:13:31 info: [0mOPTIONS /Game [32m204[0m 2.171 ms - 0[0m
+2023-08-04 00:13:32 info: [0mPOST /Game [32m201[0m 340.191 ms - -[0m
+2023-08-04 00:13:34 info: [0mOPTIONS /Game/all [32m204[0m 0.176 ms - 0[0m
+2023-08-04 00:13:34 info: [0mPOST /Game/all [32m200[0m 5.867 ms - -[0m
+2023-08-04 00:13:43 info: [0mOPTIONS /Game [32m204[0m 0.137 ms - 0[0m
+2023-08-04 00:13:43 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6cdbd12f870323634ac6') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6cdbd12f870323634ac6') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6cdbd12f870323634ac6') }**
+2023-08-04 00:13:43 info: [0mPOST /Game [33m400[0m 34.236 ms - 130[0m
+2023-08-04 00:13:50 info: [0mOPTIONS /Game [32m204[0m 0.148 ms - 0[0m
+2023-08-04 00:13:50 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6cdbd12f870323634ac6') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6cdbd12f870323634ac6') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6cdbd12f870323634ac6') }**
+2023-08-04 00:13:50 info: [0mPOST /Game [33m400[0m 114.951 ms - 130[0m
+2023-08-04 00:14:29 info: =================================
+2023-08-04 00:14:29 info: ======= ENV: development =======
+2023-08-04 00:14:29 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 00:14:54 info: [0mOPTIONS /Game [32m204[0m 1.497 ms - 0[0m
+2023-08-04 00:14:54 info: [0mPOST /Game [32m201[0m 376.062 ms - -[0m
+2023-08-04 00:14:56 info: [0mOPTIONS /Game/all [32m204[0m 0.185 ms - 0[0m
+2023-08-04 00:14:56 info: [0mPOST /Game/all [32m200[0m 6.937 ms - -[0m
+2023-08-04 00:15:05 info: [0mOPTIONS /Game [32m204[0m 0.237 ms - 0[0m
+2023-08-04 00:15:05 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6d2e7930e70351b72262') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6d2e7930e70351b72262') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6d2e7930e70351b72262') }**
+2023-08-04 00:15:05 info: [0mPOST /Game [33m400[0m 91.215 ms - 130[0m
+2023-08-04 00:15:07 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6d2e7930e70351b72262') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6d2e7930e70351b72262') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6d2e7930e70351b72262') }**
+2023-08-04 00:15:07 info: [0mPOST /Game [33m400[0m 53.318 ms - 130[0m
+2023-08-04 00:15:09 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6d2e7930e70351b72262') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6d2e7930e70351b72262') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6d2e7930e70351b72262') }**
+2023-08-04 00:15:09 info: [0mPOST /Game [33m400[0m 82.095 ms - 130[0m
+2023-08-04 00:15:09 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6d2e7930e70351b72262') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6d2e7930e70351b72262') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6d2e7930e70351b72262') }**
+2023-08-04 00:15:09 info: [0mPOST /Game [33m400[0m 56.477 ms - 130[0m
+2023-08-04 00:15:12 info: [0mOPTIONS /Game [32m204[0m 0.168 ms - 0[0m
+2023-08-04 00:15:12 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6d2e7930e70351b72262') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6d2e7930e70351b72262') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6d2e7930e70351b72262') }**
+2023-08-04 00:15:12 info: [0mPOST /Game [33m400[0m 23.628 ms - 130[0m
+2023-08-04 00:15:27 info: =================================
+2023-08-04 00:15:27 info: ======= ENV: development =======
+2023-08-04 00:15:27 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 00:15:47 info: =================================
+2023-08-04 00:15:47 info: ======= ENV: development =======
+2023-08-04 00:15:47 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 00:15:59 info: [0mOPTIONS /Game [32m204[0m 5.057 ms - 0[0m
+2023-08-04 00:15:59 info: [0mPOST /Game [32m201[0m 334.802 ms - -[0m
+2023-08-04 00:16:01 info: [0mOPTIONS /Game/all [32m204[0m 0.181 ms - 0[0m
+2023-08-04 00:16:01 info: [0mPOST /Game/all [32m200[0m 7.546 ms - -[0m
+2023-08-04 00:16:09 info: [0mOPTIONS /Game [32m204[0m 0.191 ms - 0[0m
+2023-08-04 00:16:09 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6d6fc0976603d70efae3') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6d6fc0976603d70efae3') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6d6fc0976603d70efae3') }**
+2023-08-04 00:16:09 info: [0mPOST /Game [33m400[0m 49.723 ms - 130[0m
+2023-08-04 00:16:59 info: =================================
+2023-08-04 00:16:59 info: ======= ENV: development =======
+2023-08-04 00:16:59 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 00:17:09 info: [0mOPTIONS /Game [32m204[0m 1.553 ms - 0[0m
+2023-08-04 00:17:10 info: [0mPOST /Game [32m201[0m 343.559 ms - -[0m
+2023-08-04 00:17:15 info: [0mOPTIONS /Game/all [32m204[0m 0.177 ms - 0[0m
+2023-08-04 00:17:15 info: [0mPOST /Game/all [32m200[0m 19.554 ms - -[0m
+2023-08-04 00:17:23 info: [0mOPTIONS /Game [32m204[0m 0.146 ms - 0[0m
+2023-08-04 00:17:23 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6db62e658c03f8ef295b') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6db62e658c03f8ef295b') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6db62e658c03f8ef295b') }**
+2023-08-04 00:17:23 info: [0mPOST /Game [33m400[0m 51.289 ms - 130[0m
+2023-08-04 00:17:25 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6db62e658c03f8ef295b') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6db62e658c03f8ef295b') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6db62e658c03f8ef295b') }**
+2023-08-04 00:17:25 info: [0mPOST /Game [33m400[0m 44.798 ms - 130[0m
+2023-08-04 00:19:47 info: [0mOPTIONS /Game [32m204[0m 1.321 ms - 0[0m
+2023-08-04 00:19:47 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6db62e658c03f8ef295b') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6db62e658c03f8ef295b') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc6db62e658c03f8ef295b') }**
+2023-08-04 00:19:47 info: [0mPOST /Game [33m400[0m 97.902 ms - 130[0m
+2023-08-04 00:45:57 info: =================================
+2023-08-04 00:45:57 info: ======= ENV: development =======
+2023-08-04 00:45:57 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 00:47:29 info: [0mOPTIONS /Game/all [32m204[0m 2.562 ms - 0[0m
+2023-08-04 00:47:30 info: [0mPOST /Game/all [32m200[0m 69.744 ms - 698[0m
+2023-08-04 00:47:33 info: [0mPOST /Game/all [32m200[0m 48.216 ms - 698[0m
+2023-08-04 00:47:40 info: [0mOPTIONS /Game [32m204[0m 0.153 ms - 0[0m
+2023-08-04 00:47:41 info: [0mPOST /Game [32m201[0m 540.408 ms - -[0m
+2023-08-04 00:47:44 info: [0mOPTIONS /Game/all [32m204[0m 1.905 ms - 0[0m
+2023-08-04 00:47:44 info: [0mPOST /Game/all [32m200[0m 50.084 ms - -[0m
+2023-08-04 00:47:50 info: [0mOPTIONS /Game [32m204[0m 0.156 ms - 0[0m
+2023-08-04 00:47:50 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc74dc09f838064c3d8734') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc74dc09f838064c3d8734') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc74dc09f838064c3d8734') }**
+2023-08-04 00:47:50 info: [0mPOST /Game [33m400[0m 134.111 ms - 130[0m
+2023-08-04 00:48:37 info: =================================
+2023-08-04 00:48:37 info: ======= ENV: development =======
+2023-08-04 00:48:37 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 00:56:04 info: =================================
+2023-08-04 00:56:04 info: ======= ENV: development =======
+2023-08-04 00:56:04 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 00:56:46 info: [0mOPTIONS /Game/all [32m204[0m 5.882 ms - 0[0m
+2023-08-04 00:56:47 info: [0mPOST /Game/all [32m200[0m 258.178 ms - 695[0m
+2023-08-04 00:56:52 info: [0mOPTIONS /Game [32m204[0m 0.158 ms - 0[0m
+2023-08-04 00:56:53 error: [POST] /Game >> StatusCode:: 400, Message:: TypeError: Cannot read property '_id' of null, Error: **Error: TypeError: Cannot read property '_id' of null** Error: **TypeError: Cannot read property '_id' of null**
+2023-08-04 00:56:53 info: [0mPOST /Game [33m400[0m 283.650 ms - 47[0m
+2023-08-04 00:57:12 info: =================================
+2023-08-04 00:57:12 info: ======= ENV: development =======
+2023-08-04 00:57:12 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 00:57:32 info: =================================
+2023-08-04 00:57:32 info: ======= ENV: development =======
+2023-08-04 00:57:32 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 00:58:17 info: [0mOPTIONS /Game [32m204[0m 2.196 ms - 0[0m
+2023-08-04 00:58:17 error: [POST] /Game >> StatusCode:: 400, Message:: TypeError: Cannot read property '_id' of null, Error: **Error: TypeError: Cannot read property '_id' of null** Error: **TypeError: Cannot read property '_id' of null**
+2023-08-04 00:58:17 info: [0mPOST /Game [33m400[0m 159.334 ms - 47[0m
+2023-08-04 00:58:21 info: [0mOPTIONS /Game/all [32m204[0m 0.319 ms - 0[0m
+2023-08-04 00:58:21 info: [0mPOST /Game/all [32m200[0m 102.809 ms - -[0m
+2023-08-04 00:58:25 info: [0mPOST /Game/all [32m200[0m 137.064 ms - -[0m
+2023-08-04 00:58:48 info: [0mOPTIONS /Game/all [32m204[0m 0.222 ms - 0[0m
+2023-08-04 00:58:48 info: [0mPOST /Game/all [32m200[0m 102.611 ms - 692[0m
+2023-08-04 00:58:53 info: [0mOPTIONS /Game [32m204[0m 0.171 ms - 0[0m
+2023-08-04 00:58:53 error: [POST] /Game >> StatusCode:: 400, Message:: TypeError: Cannot read property '_id' of null, Error: **Error: TypeError: Cannot read property '_id' of null** Error: **TypeError: Cannot read property '_id' of null**
+2023-08-04 00:58:53 info: [0mPOST /Game [33m400[0m 94.953 ms - 47[0m
+2023-08-04 00:58:59 info: [0mOPTIONS /Game [32m204[0m 0.155 ms - 0[0m
+2023-08-04 00:59:00 error: [POST] /Game >> StatusCode:: 400, Message:: TypeError: Cannot read property '_id' of null, Error: **Error: TypeError: Cannot read property '_id' of null** Error: **TypeError: Cannot read property '_id' of null**
+2023-08-04 00:59:00 info: [0mPOST /Game [33m400[0m 216.209 ms - 47[0m
+2023-08-04 00:59:35 info: =================================
+2023-08-04 00:59:35 info: ======= ENV: development =======
+2023-08-04 00:59:35 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 00:59:53 info: [0mOPTIONS /Game/all [32m204[0m 2.142 ms - 0[0m
+2023-08-04 00:59:53 info: [0mPOST /Game/all [32m200[0m 53.287 ms - -[0m
+2023-08-04 01:00:19 info: [0mOPTIONS /Game/all [32m204[0m 0.219 ms - 0[0m
+2023-08-04 01:00:20 info: [0mPOST /Game/all [32m200[0m 11.923 ms - 2[0m
+2023-08-04 01:00:23 info: [0mOPTIONS /Game [32m204[0m 0.175 ms - 0[0m
+2023-08-04 01:00:23 error: [POST] /Game >> StatusCode:: 400, Message:: TypeError: Cannot read property '_id' of null, Error: **Error: TypeError: Cannot read property '_id' of null** Error: **TypeError: Cannot read property '_id' of null**
+2023-08-04 01:00:23 info: [0mPOST /Game [33m400[0m 154.664 ms - 47[0m
+2023-08-04 01:00:41 info: =================================
+2023-08-04 01:00:41 info: ======= ENV: development =======
+2023-08-04 01:00:41 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 01:01:00 info: [0mOPTIONS /Game [32m204[0m 1.786 ms - 0[0m
+2023-08-04 01:01:00 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: game: Path `game` is required., Error: **Error: ValidationError: game: Path `game` is required.** Error: **ValidationError: game: Path `game` is required.**
+2023-08-04 01:01:00 info: [0mPOST /Game [33m400[0m 236.924 ms - 49[0m
+2023-08-04 01:01:13 info: [0mOPTIONS /Game/all [32m204[0m 0.320 ms - 0[0m
+2023-08-04 01:01:14 info: [0mPOST /Game/all [32m200[0m 30.914 ms - 692[0m
+2023-08-04 01:01:23 info: [0mOPTIONS /Game [32m204[0m 0.217 ms - 0[0m
+2023-08-04 01:01:23 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: game: Path `game` is required., Error: **Error: ValidationError: game: Path `game` is required.** Error: **ValidationError: game: Path `game` is required.**
+2023-08-04 01:01:23 info: [0mPOST /Game [33m400[0m 163.742 ms - 49[0m
+2023-08-04 01:01:45 info: =================================
+2023-08-04 01:01:45 info: ======= ENV: development =======
+2023-08-04 01:01:45 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 01:02:36 info: =================================
+2023-08-04 01:02:36 info: ======= ENV: development =======
+2023-08-04 01:02:36 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 01:03:02 info: =================================
+2023-08-04 01:03:02 info: ======= ENV: development =======
+2023-08-04 01:03:02 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 01:03:23 info: =================================
+2023-08-04 01:03:23 info: ======= ENV: development =======
+2023-08-04 01:03:23 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 01:03:38 info: [0mOPTIONS /Game/all [32m204[0m 2.864 ms - 0[0m
+2023-08-04 01:03:38 info: [0mPOST /Game/all [32m200[0m 73.863 ms - -[0m
+2023-08-04 01:03:54 info: [0mOPTIONS /Game/all [32m204[0m 0.216 ms - 0[0m
+2023-08-04 01:03:54 info: [0mPOST /Game/all [32m200[0m 51.977 ms - 2[0m
+2023-08-04 01:03:59 info: [0mOPTIONS /Game [32m204[0m 0.161 ms - 0[0m
+2023-08-04 01:03:59 info: [0mPOST /Game [32m201[0m 375.510 ms - -[0m
+2023-08-04 01:04:08 info: [0mOPTIONS /Game/all [32m204[0m 0.182 ms - 0[0m
+2023-08-04 01:04:08 info: [0mPOST /Game/all [32m200[0m 25.375 ms - 695[0m
+2023-08-04 01:04:12 info: [0mOPTIONS /Game [32m204[0m 0.193 ms - 0[0m
+2023-08-04 01:04:12 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc78af7d0d67085758355b') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc78af7d0d67085758355b') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc78af7d0d67085758355b') }**
+2023-08-04 01:04:12 info: [0mPOST /Game [33m400[0m 169.065 ms - 130[0m
+2023-08-04 01:04:40 info: =================================
+2023-08-04 01:04:40 info: ======= ENV: development =======
+2023-08-04 01:04:40 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 01:04:45 info: [0mOPTIONS /Game/all [32m204[0m 3.241 ms - 0[0m
+2023-08-04 01:04:45 info: [0mPOST /Game/all [32m200[0m 79.777 ms - 695[0m
+2023-08-04 01:35:56 info: =================================
+2023-08-04 01:35:56 info: ======= ENV: development =======
+2023-08-04 01:35:56 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 01:38:38 info: [0mOPTIONS /signup [32m204[0m 8.207 ms - 0[0m
+2023-08-04 01:38:39 info: [0mPOST /signup [32m201[0m 668.274 ms - 118[0m
+2023-08-04 01:38:48 info: [0mOPTIONS /login [32m204[0m 0.350 ms - 0[0m
+2023-08-04 01:38:48 info: [0mPOST /login [32m200[0m 183.256 ms - 140[0m
+2023-08-04 01:38:48 info: [0mOPTIONS /Game/all [32m204[0m 0.167 ms - 0[0m
+2023-08-04 01:38:48 info: [0mOPTIONS /Game/all [32m204[0m 0.188 ms - 0[0m
+2023-08-04 01:38:48 info: [0mPOST /Game/all [32m200[0m 71.866 ms - 2[0m
+2023-08-04 01:38:48 info: [0mPOST /Game/all [32m200[0m 134.255 ms - 2[0m
+2023-08-04 01:39:16 info: [0mOPTIONS /Game [32m204[0m 0.176 ms - 0[0m
+2023-08-04 01:39:17 info: [0mPOST /Game [32m201[0m 976.435 ms - -[0m
+2023-08-04 01:39:20 info: [0mPUT /Game [32m200[0m 388.694 ms - 693[0m
+2023-08-04 01:39:22 info: [0mOPTIONS /Game/all [32m204[0m 1.630 ms - 0[0m
+2023-08-04 01:39:22 info: [0mPOST /Game/all [32m200[0m 76.474 ms - 695[0m
+2023-08-04 01:39:38 info: [0mOPTIONS /Game [32m204[0m 0.226 ms - 0[0m
+2023-08-04 01:39:38 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }**
+2023-08-04 01:39:38 info: [0mPOST /Game [33m400[0m 70.215 ms - 130[0m
+2023-08-04 01:39:49 info: [0mOPTIONS /Game [32m204[0m 0.194 ms - 0[0m
+2023-08-04 01:39:50 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }**
+2023-08-04 01:39:50 info: [0mPOST /Game [33m400[0m 63.493 ms - 130[0m
+2023-08-04 01:40:44 info: [0mOPTIONS /Game [32m204[0m 0.664 ms - 0[0m
+2023-08-04 01:40:44 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }**
+2023-08-04 01:40:44 info: [0mPOST /Game [33m400[0m 9.480 ms - 130[0m
+2023-08-04 01:41:30 info: [0mOPTIONS /login [32m204[0m 0.198 ms - 0[0m
+2023-08-04 01:41:31 info: [0mPOST /login [32m200[0m 128.143 ms - 140[0m
+2023-08-04 01:41:31 info: [0mOPTIONS /Game/all [32m204[0m 0.165 ms - 0[0m
+2023-08-04 01:41:31 info: [0mPOST /Game/all [32m200[0m 6.426 ms - 695[0m
+2023-08-04 01:41:42 info: [0mOPTIONS /Game [32m204[0m 0.153 ms - 0[0m
+2023-08-04 01:41:42 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }**
+2023-08-04 01:41:42 info: [0mPOST /Game [33m400[0m 13.962 ms - 130[0m
+2023-08-04 01:41:45 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }**
+2023-08-04 01:41:45 info: [0mPOST /Game [33m400[0m 6.089 ms - 130[0m
+2023-08-04 01:41:49 info: [0mOPTIONS /Game [32m204[0m 0.153 ms - 0[0m
+2023-08-04 01:41:49 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }**
+2023-08-04 01:41:49 info: [0mPOST /Game [33m400[0m 13.725 ms - 130[0m
+2023-08-04 01:42:41 info: [0mOPTIONS /login [32m204[0m 0.162 ms - 0[0m
+2023-08-04 01:42:41 info: [0mPOST /login [32m200[0m 94.052 ms - 140[0m
+2023-08-04 01:42:41 info: [0mOPTIONS /Game/all [32m204[0m 0.302 ms - 0[0m
+2023-08-04 01:42:41 info: [0mPOST /Game/all [32m200[0m 11.330 ms - 695[0m
+2023-08-04 01:42:49 info: [0mOPTIONS /Game [32m204[0m 0.122 ms - 0[0m
+2023-08-04 01:42:49 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }**
+2023-08-04 01:42:49 info: [0mPOST /Game [33m400[0m 9.615 ms - 130[0m
+2023-08-04 01:43:01 info: [0mOPTIONS /Game [32m204[0m 0.152 ms - 0[0m
+2023-08-04 01:43:01 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }**
+2023-08-04 01:43:01 info: [0mPOST /Game [33m400[0m 14.911 ms - 130[0m
+2023-08-04 01:52:25 info: [0mOPTIONS /Game [32m204[0m 0.684 ms - 0[0m
+2023-08-04 01:52:25 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc80f42406830b3a34560c') }**
+2023-08-04 01:52:25 info: [0mPOST /Game [33m400[0m 85.815 ms - 130[0m
+2023-08-04 02:09:10 info: =================================
+2023-08-04 02:09:10 info: ======= ENV: development =======
+2023-08-04 02:09:10 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 02:09:21 info: =================================
+2023-08-04 02:09:21 info: ======= ENV: development =======
+2023-08-04 02:09:21 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 02:09:33 info: [0mOPTIONS /Game/all [32m204[0m 2.057 ms - 0[0m
+2023-08-04 02:09:33 info: [0mPOST /Game/all [32m200[0m 121.798 ms - 695[0m
+2023-08-04 02:09:41 info: [0mOPTIONS /Game [32m204[0m 0.155 ms - 0[0m
+2023-08-04 02:09:42 info: [0mPOST /Game [32m201[0m 576.957 ms - -[0m
+2023-08-04 02:09:44 info: [0mPUT /Game [32m200[0m 143.062 ms - 692[0m
+2023-08-04 02:09:45 info: [0mOPTIONS /Game/all [32m204[0m 0.155 ms - 0[0m
+2023-08-04 02:09:46 info: [0mPOST /Game/all [32m200[0m 91.997 ms - -[0m
+2023-08-04 02:09:50 info: [0mOPTIONS /Game [32m204[0m 0.230 ms - 0[0m
+2023-08-04 02:09:50 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc88157b567d0e56d659fb') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc88157b567d0e56d659fb') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc88157b567d0e56d659fb') }**
+2023-08-04 02:09:50 info: [0mPOST /Game [33m400[0m 120.003 ms - 130[0m
+2023-08-04 02:17:07 info: =================================
+2023-08-04 02:17:07 info: ======= ENV: development =======
+2023-08-04 02:17:07 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 02:25:14 info: [0mOPTIONS /Game [32m204[0m 1.637 ms - 0[0m
+2023-08-04 02:25:14 info: [0mPOST /Game [32m201[0m 371.604 ms - -[0m
+2023-08-04 02:25:20 info: [0mOPTIONS /Game/all [32m204[0m 0.165 ms - 0[0m
+2023-08-04 02:25:21 info: [0mPOST /Game/all [32m200[0m 16.433 ms - -[0m
+2023-08-04 02:27:07 info: [0mOPTIONS /Game [32m204[0m 0.172 ms - 0[0m
+2023-08-04 02:27:08 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc8bba27289f0eb4ebff9c') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc8bba27289f0eb4ebff9c') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc8bba27289f0eb4ebff9c') }**
+2023-08-04 02:27:08 info: [0mPOST /Game [33m400[0m 136.591 ms - 130[0m
+2023-08-04 02:27:14 info: [0mOPTIONS /Game [32m204[0m 0.151 ms - 0[0m
+2023-08-04 02:27:15 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc8bba27289f0eb4ebff9c') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc8bba27289f0eb4ebff9c') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc8bba27289f0eb4ebff9c') }**
+2023-08-04 02:27:15 info: [0mPOST /Game [33m400[0m 253.656 ms - 130[0m
+2023-08-04 16:08:26 info: [0mOPTIONS /login [32m204[0m 57.983 ms - 0[0m
+2023-08-04 16:08:27 info: [0mPOST /login [32m200[0m 779.327 ms - 140[0m
+2023-08-04 16:08:27 info: [0mOPTIONS /Game/all [32m204[0m 0.192 ms - 0[0m
+2023-08-04 16:08:28 info: [0mPOST /Game/all [32m200[0m 649.510 ms - -[0m
+2023-08-04 16:08:42 info: [0mOPTIONS /Game [32m204[0m 0.193 ms - 0[0m
+2023-08-04 16:08:42 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc8bba27289f0eb4ebff9c') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc8bba27289f0eb4ebff9c') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc8bba27289f0eb4ebff9c') }**
+2023-08-04 16:08:42 info: [0mPOST /Game [33m400[0m 140.394 ms - 130[0m
+2023-08-04 16:08:59 info: [0mOPTIONS /Game [32m204[0m 0.214 ms - 0[0m
+2023-08-04 16:08:59 error: [POST] /Game >> StatusCode:: 400, Message:: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc8bba27289f0eb4ebff9c') }, Error: **Error: MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc8bba27289f0eb4ebff9c') }** Error: **MongoError: E11000 duplicate key error collection: test.games index: _id_ dup key: { _id: ObjectId('64cc8bba27289f0eb4ebff9c') }**
+2023-08-04 16:08:59 info: [0mPOST /Game [33m400[0m 59.109 ms - 130[0m
+2023-08-04 16:09:31 info: [0mOPTIONS /Game/find [32m204[0m 0.166 ms - 0[0m
+2023-08-04 16:09:31 info: [0mPOST /Game/find [32m200[0m 409.242 ms - -[0m
+2023-08-04 16:09:40 info: [0mGET /Card/all/64cc80f52406830b3a345618 [32m200[0m 241.572 ms - 2[0m
+2023-08-04 16:09:40 info: [0mGET /Card/all/64cc80f52406830b3a345619 [32m200[0m 231.735 ms - 2[0m
+2023-08-04 16:09:40 info: [0mGET /Card/all/64cc80f52406830b3a34561a [32m200[0m 241.134 ms - 2[0m
+2023-08-04 16:09:46 info: [0mGET /Card/all/64cc80f52406830b3a34561a [36m304[0m 60.009 ms - -[0m
+2023-08-04 16:09:46 info: [0mGET /Card/all/64cc80f52406830b3a345619 [36m304[0m 11.870 ms - -[0m
+2023-08-04 16:09:46 info: [0mGET /Card/all/64cc80f52406830b3a345618 [36m304[0m 89.577 ms - -[0m
+2023-08-04 16:10:50 info: [0mOPTIONS /signup [32m204[0m 0.151 ms - 0[0m
+2023-08-04 16:10:50 info: [0mPOST /signup [32m201[0m 217.967 ms - 124[0m
+2023-08-04 16:11:00 info: [0mOPTIONS /login [32m204[0m 0.170 ms - 0[0m
+2023-08-04 16:11:00 info: [0mPOST /login [32m200[0m 129.042 ms - 146[0m
+2023-08-04 16:11:00 info: [0mOPTIONS /Game/all [32m204[0m 0.229 ms - 0[0m
+2023-08-04 16:11:00 info: [0mOPTIONS /Game/all [32m204[0m 0.161 ms - 0[0m
+2023-08-04 16:11:00 info: [0mPOST /Game/all [32m200[0m 47.714 ms - 2[0m
+2023-08-04 16:11:00 info: [0mPOST /Game/all [32m200[0m 16.863 ms - 2[0m
+2023-08-04 16:16:28 info: [0mOPTIONS /login [32m204[0m 0.149 ms - 0[0m
+2023-08-04 16:16:28 error: [POST] /login >> StatusCode:: 409, Message:: Email jefferson@email.com not found, Error: **Error: Email jefferson@email.com not found** Error: **Email jefferson@email.com not found**
+2023-08-04 16:16:28 info: [0mPOST /login [33m409[0m 8.004 ms - 37[0m
+2023-08-04 16:16:36 info: [0mOPTIONS /signup [32m204[0m 0.141 ms - 0[0m
+2023-08-04 16:16:36 info: [0mPOST /signup [32m201[0m 214.367 ms - 124[0m
+2023-08-04 16:16:43 info: [0mOPTIONS /login [32m204[0m 0.130 ms - 0[0m
+2023-08-04 16:16:43 info: [0mPOST /login [32m200[0m 114.006 ms - 146[0m
+2023-08-04 16:16:43 info: [0mOPTIONS /Game/all [32m204[0m 0.141 ms - 0[0m
+2023-08-04 16:16:43 info: [0mOPTIONS /Game/all [32m204[0m 0.153 ms - 0[0m
+2023-08-04 16:16:44 info: [0mPOST /Game/all [32m200[0m 33.924 ms - 2[0m
+2023-08-04 16:16:44 info: [0mPOST /Game/all [32m200[0m 29.313 ms - 2[0m
+2023-08-04 16:17:40 info: [0mOPTIONS /login [32m204[0m 0.313 ms - 0[0m
+2023-08-04 16:17:40 info: [0mPOST /login [32m200[0m 113.503 ms - 146[0m
+2023-08-04 16:17:40 info: [0mOPTIONS /Game/all [32m204[0m 0.169 ms - 0[0m
+2023-08-04 16:17:40 info: [0mPOST /Game/all [32m200[0m 8.845 ms - 2[0m
+2023-08-04 16:20:45 info: [0mOPTIONS /signup [32m204[0m 0.790 ms - 0[0m
+2023-08-04 16:20:45 info: [0mPOST /signup [32m201[0m 145.424 ms - 122[0m
+2023-08-04 16:20:53 info: [0mOPTIONS /login [32m204[0m 0.128 ms - 0[0m
+2023-08-04 16:20:54 info: [0mPOST /login [32m200[0m 162.824 ms - 144[0m
+2023-08-04 16:20:54 info: [0mOPTIONS /Game/all [32m204[0m 0.229 ms - 0[0m
+2023-08-04 16:20:54 info: [0mOPTIONS /Game/all [32m204[0m 0.140 ms - 0[0m
+2023-08-04 16:20:54 info: [0mPOST /Game/all [32m200[0m 33.988 ms - 2[0m
+2023-08-04 16:20:54 info: [0mPOST /Game/all [32m200[0m 27.934 ms - 2[0m
+2023-08-04 16:25:23 info: [0mOPTIONS /signup [32m204[0m 0.137 ms - 0[0m
+2023-08-04 16:25:23 info: [0mPOST /signup [32m201[0m 134.557 ms - 120[0m
+2023-08-04 16:25:35 info: [0mOPTIONS /login [32m204[0m 2.332 ms - 0[0m
+2023-08-04 16:25:35 info: [0mPOST /login [32m200[0m 124.775 ms - 142[0m
+2023-08-04 16:25:35 info: [0mOPTIONS /Game/all [32m204[0m 0.359 ms - 0[0m
+2023-08-04 16:25:35 info: [0mOPTIONS /Game/all [32m204[0m 0.123 ms - 0[0m
+2023-08-04 16:25:35 info: [0mPOST /Game/all [32m200[0m 26.420 ms - 2[0m
+2023-08-04 16:25:35 info: [0mPOST /Game/all [32m200[0m 21.368 ms - 2[0m
+2023-08-04 16:27:26 info: [0mOPTIONS /Game [32m204[0m 0.778 ms - 0[0m
+2023-08-04 16:27:27 info: [0mPOST /Game [32m201[0m 964.128 ms - -[0m
+2023-08-04 16:27:30 info: [0mPUT /Game [32m200[0m 828.781 ms - 691[0m
+2023-08-04 16:27:31 info: [0mOPTIONS /Game/all [32m204[0m 0.123 ms - 0[0m
+2023-08-04 16:27:31 info: [0mPOST /Game/all [32m200[0m 9.132 ms - 693[0m
+2023-08-04 16:28:20 error: [POST] /login >> StatusCode:: 409, Message:: Password not match, Error: **Error: Password not match** Error: **Password not match**
+2023-08-04 16:28:20 info: [0mPOST /login [33m409[0m 90.584 ms - 20[0m
+2023-08-04 16:28:29 error: [POST] /login >> StatusCode:: 409, Message:: Password not match, Error: **Error: Password not match** Error: **Password not match**
+2023-08-04 16:28:29 info: [0mPOST /login [33m409[0m 101.185 ms - 20[0m
+2023-08-04 16:28:33 info: [0mPOST /login [32m200[0m 103.326 ms - 144[0m
+2023-08-04 16:32:10 info: =================================
+2023-08-04 16:32:10 info: ======= ENV: development =======
+2023-08-04 16:32:10 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-04 16:32:43 info: =================================
+2023-08-04 16:32:43 info: ======= ENV: development =======
+2023-08-04 16:32:43 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-04 16:33:59 info: =================================
+2023-08-04 16:33:59 info: ======= ENV: development =======
+2023-08-04 16:33:59 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 16:34:18 info: =================================
+2023-08-04 16:34:18 info: ======= ENV: development =======
+2023-08-04 16:34:18 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 16:34:33 info: [0mOPTIONS /signup [32m204[0m 1.532 ms - 0[0m
+2023-08-04 16:34:33 info: [0mPOST /signup [32m201[0m 245.196 ms - 120[0m
+2023-08-04 16:34:56 info: [0mOPTIONS /signup [32m204[0m 0.232 ms - 0[0m
+2023-08-04 16:34:57 error: [POST] /signup >> StatusCode:: 409, Message:: Email email@email.com already exists, Error: **Error: Email email@email.com already exists** Error: **Email email@email.com already exists**
+2023-08-04 16:34:57 info: [0mPOST /signup [33m409[0m 62.259 ms - 38[0m
+2023-08-04 16:35:03 info: [0mOPTIONS /login [32m204[0m 0.145 ms - 0[0m
+2023-08-04 16:35:03 info: [0mPOST /login [32m200[0m 133.944 ms - 142[0m
+2023-08-04 16:35:04 info: [0mOPTIONS /Game/all [32m204[0m 0.162 ms - 0[0m
+2023-08-04 16:35:04 info: [0mOPTIONS /Game/all [32m204[0m 0.153 ms - 0[0m
+2023-08-04 16:35:04 info: [0mPOST /Game/all [32m200[0m 52.089 ms - 2[0m
+2023-08-04 16:35:04 info: [0mPOST /Game/all [32m200[0m 50.502 ms - 2[0m
+2023-08-04 16:39:15 info: =================================
+2023-08-04 16:39:15 info: ======= ENV: development =======
+2023-08-04 16:39:15 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 16:44:27 info: [0mGET / [32m200[0m 41.190 ms - 2[0m
+2023-08-04 16:44:27 info: [0mGET /favicon.ico [33m404[0m 87.193 ms - 150[0m
+2023-08-04 16:44:31 info: [0mGET / [36m304[0m 50.961 ms - -[0m
+2023-08-04 16:45:41 info: =================================
+2023-08-04 16:45:41 info: ======= ENV: development =======
+2023-08-04 16:45:41 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-04 16:46:36 info: =================================
+2023-08-04 16:46:36 info: ======= ENV: development =======
+2023-08-04 16:46:36 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 16:46:45 info: =================================
+2023-08-04 16:46:45 info: ======= ENV: development =======
+2023-08-04 16:46:45 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 16:46:46 info: [0mOPTIONS /signup [32m204[0m 7.736 ms - 0[0m
+2023-08-04 16:46:46 info: [0mPOST /signup [32m201[0m 191.260 ms - 112[0m
+2023-08-04 17:10:44 info: [0mOPTIONS /signup [32m204[0m 9.780 ms - 0[0m
+2023-08-04 17:10:45 info: [0mPOST /signup [32m201[0m 328.177 ms - 117[0m
+2023-08-04 17:10:52 info: [0mOPTIONS /login [32m204[0m 1.181 ms - 0[0m
+2023-08-04 17:10:52 info: [0mPOST /login [32m200[0m 194.242 ms - 139[0m
+2023-08-04 17:10:52 info: [0mOPTIONS /Game/all [32m204[0m 0.177 ms - 0[0m
+2023-08-04 17:10:52 info: [0mOPTIONS /Game/all [32m204[0m 0.728 ms - 0[0m
+2023-08-04 17:10:52 info: [0mPOST /Game/all [32m200[0m 107.751 ms - 2[0m
+2023-08-04 17:10:53 info: [0mPOST /Game/all [32m200[0m 243.342 ms - 2[0m
+2023-08-04 17:11:07 info: [0mOPTIONS /login [32m204[0m 0.197 ms - 0[0m
+2023-08-04 17:11:07 info: [0mPOST /login [32m200[0m 166.063 ms - 139[0m
+2023-08-04 17:11:07 info: [0mOPTIONS /Game/all [32m204[0m 0.193 ms - 0[0m
+2023-08-04 17:11:07 info: [0mPOST /Game/all [32m200[0m 29.773 ms - 2[0m
+2023-08-04 18:06:31 info: =================================
+2023-08-04 18:06:31 info: ======= ENV: development =======
+2023-08-04 18:06:31 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 18:07:52 info: =================================
+2023-08-04 18:07:52 info: ======= ENV: development =======
+2023-08-04 18:07:52 info: 🚀 App listening on http://localhost:42041/api-docs/
+2023-08-04 18:08:01 info: =================================
+2023-08-04 18:08:01 info: ======= ENV: development =======
+2023-08-04 18:08:01 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-08-04 18:08:22 info: [0mOPTIONS /login [32m204[0m 1.409 ms - 0[0m
+2023-08-04 18:08:22 error: [POST] /login >> StatusCode:: 409, Message:: Email t@t.com not found, Error: **Error: Email t@t.com not found** Error: **Email t@t.com not found**
+2023-08-04 18:08:22 info: [0mPOST /login [33m409[0m 134.468 ms - 25[0m
+2023-08-04 18:08:33 info: [0mOPTIONS /signup [32m204[0m 2.838 ms - 0[0m
+2023-08-04 18:08:33 info: [0mPOST /signup [32m201[0m 176.710 ms - 112[0m
+2023-08-04 18:08:45 info: [0mOPTIONS /signup [32m204[0m 0.228 ms - 0[0m
+2023-08-04 18:08:45 info: [0mPOST /signup [32m201[0m 188.649 ms - 112[0m
+2023-08-04 18:10:50 info: [0mOPTIONS /login [32m204[0m 0.179 ms - 0[0m
+2023-08-04 18:10:51 info: [0mPOST /login [32m200[0m 230.857 ms - 134[0m
+2023-08-04 18:10:51 info: [0mOPTIONS /Game/all [32m204[0m 0.387 ms - 0[0m
+2023-08-04 18:10:51 info: [0mOPTIONS /Game/all [32m204[0m 0.396 ms - 0[0m
+2023-08-04 18:10:51 info: [0mPOST /Game/all [32m200[0m 69.257 ms - 2[0m
+2023-08-04 18:10:51 info: [0mPOST /Game/all [32m200[0m 80.840 ms - 2[0m
+2023-08-04 18:11:09 info: [0mOPTIONS /Game [32m204[0m 0.164 ms - 0[0m
+2023-08-04 18:11:10 info: [0mPOST /Game [32m201[0m 451.118 ms - -[0m
+2023-08-04 18:11:13 info: [0mPUT /Game [32m200[0m 133.263 ms - 692[0m
+2023-08-04 18:11:14 info: [0mOPTIONS /Game/all [32m204[0m 12.211 ms - 0[0m
+2023-08-04 18:11:15 info: [0mPOST /Game/all [32m200[0m 32.964 ms - 694[0m
+2023-08-04 18:22:08 info: [0mOPTIONS /Game/all [32m204[0m 4.469 ms - 0[0m
+2023-08-04 18:22:09 info: [0mPOST /Game/all [32m200[0m 249.985 ms - 694[0m
+2023-08-04 18:39:42 info: [0mOPTIONS /signup [32m204[0m 2.549 ms - 0[0m
+2023-08-04 18:39:42 info: [0mPOST /signup [32m201[0m 442.076 ms - 114[0m
+2023-08-04 18:39:54 info: [0mOPTIONS /login [32m204[0m 0.197 ms - 0[0m
+2023-08-04 18:39:54 info: [0mPOST /login [32m200[0m 166.559 ms - 136[0m
+2023-08-04 18:39:54 info: [0mOPTIONS /Game/all [32m204[0m 0.306 ms - 0[0m
+2023-08-04 18:39:54 info: [0mPOST /Game/all [32m200[0m 131.865 ms - 2[0m
+2023-08-04 18:49:37 info: [0mOPTIONS /login [32m204[0m 1.656 ms - 0[0m
+2023-08-04 18:49:37 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, Error: **Error: email must be an email** Error: **email must be an email**
+2023-08-04 18:49:37 info: [0mPOST /login [33m400[0m 88.647 ms - 24[0m
+2023-08-04 18:50:34 info: [0mOPTIONS /signup [32m204[0m 2.302 ms - 0[0m
+2023-08-04 18:50:34 info: [0mPOST /signup [32m201[0m 270.413 ms - 120[0m
+2023-08-04 18:50:48 info: [0mOPTIONS /login [32m204[0m 0.157 ms - 0[0m
+2023-08-04 18:50:49 info: [0mPOST /login [32m200[0m 169.303 ms - 142[0m
+2023-08-04 18:50:49 info: [0mOPTIONS /Game/all [32m204[0m 0.152 ms - 0[0m
+2023-08-04 18:50:49 info: [0mOPTIONS /Game/all [32m204[0m 0.133 ms - 0[0m
+2023-08-04 18:50:49 info: [0mOPTIONS /Game/all [32m204[0m 1.946 ms - 0[0m
+2023-08-04 18:50:49 info: [0mPOST /Game/all [32m200[0m 251.774 ms - 2[0m
+2023-08-04 18:50:49 info: [0mPOST /Game/all [32m200[0m 268.103 ms - 2[0m
+2023-08-04 18:50:49 info: [0mPOST /Game/all [32m200[0m 284.171 ms - 2[0m
+2023-08-04 19:19:10 info: [0mOPTIONS /login [32m204[0m 4.709 ms - 0[0m
+2023-08-04 19:19:10 info: [0mPOST /login [32m200[0m 442.830 ms - 142[0m
+2023-08-04 19:19:10 info: [0mOPTIONS /Game/all [32m204[0m 0.328 ms - 0[0m
+2023-08-04 19:19:10 info: [0mPOST /Game/all [32m200[0m 215.639 ms - 2[0m
