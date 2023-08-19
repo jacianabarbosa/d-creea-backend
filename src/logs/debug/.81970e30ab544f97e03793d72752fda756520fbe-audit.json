@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/jacianabarbosa/d-creea-backend/src/logs/debug/.81970e30ab544f97e03793d72752fda756520fbe-audit.json",
+    "files": [
+        {
+            "date": 1692401118619,
+            "name": "/Users/jacianabarbosa/d-creea-backend/src/logs/debug/2023-08-18.log",
+            "hash": "4cd0baaad70154cd468b75c7605b6dae"
+        }
+    ]
+}
