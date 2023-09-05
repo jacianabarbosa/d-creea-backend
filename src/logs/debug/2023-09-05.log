@@ -1,0 +1,38 @@
+2023-09-05 00:43:13 info: =================================
+2023-09-05 00:43:13 info: ======= ENV: development =======
+2023-09-05 00:43:13 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-09-05 01:32:06 info: =================================
+2023-09-05 01:32:06 info: ======= ENV: development =======
+2023-09-05 01:32:06 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-09-05 03:04:35 info: [0mGET / [32m200[0m 157.428 ms - 2[0m
+2023-09-05 03:04:36 info: [0mGET /favicon.ico [33m404[0m 5.654 ms - 150[0m
+2023-09-05 04:01:39 info: [0mOPTIONS /signup [32m204[0m 7.840 ms - 0[0m
+2023-09-05 04:01:39 info: [0mPOST /signup [32m201[0m 341.804 ms - 120[0m
+2023-09-05 04:01:53 info: [0mOPTIONS /login [32m204[0m 0.162 ms - 0[0m
+2023-09-05 04:01:53 error: [POST] /login >> StatusCode:: 409, Message:: Email teste@teste.com not found, Error: **Error: Email teste@teste.com not found** Error: **Email teste@teste.com not found**
+2023-09-05 04:01:53 info: [0mPOST /login [33m409[0m 52.306 ms - 33[0m
+2023-09-05 04:02:00 info: [0mOPTIONS /login [32m204[0m 0.200 ms - 0[0m
+2023-09-05 04:02:00 error: [POST] /login >> StatusCode:: 409, Message:: Email teste@teste.com not found, Error: **Error: Email teste@teste.com not found** Error: **Email teste@teste.com not found**
+2023-09-05 04:02:00 info: [0mPOST /login [33m409[0m 5.403 ms - 33[0m
+2023-09-05 04:02:21 info: [0mOPTIONS /signup [32m204[0m 0.174 ms - 0[0m
+2023-09-05 04:02:22 info: [0mPOST /signup [32m201[0m 163.739 ms - 116[0m
+2023-09-05 04:02:30 info: [0mOPTIONS /login [32m204[0m 0.180 ms - 0[0m
+2023-09-05 04:02:30 info: [0mPOST /login [32m200[0m 170.014 ms - 138[0m
+2023-09-05 04:02:30 info: [0mOPTIONS /Game/all [32m204[0m 0.342 ms - 0[0m
+2023-09-05 04:02:30 info: [0mPOST /Game/all [32m200[0m 82.415 ms - 2[0m
+2023-09-05 04:02:30 info: [0mPOST /Game/all [32m200[0m 25.663 ms - 2[0m
+2023-09-05 04:02:30 info: [0mPOST /Game/all [32m200[0m 95.847 ms - 2[0m
+2023-09-05 04:03:16 info: [0mOPTIONS /Game/all [32m204[0m 0.161 ms - 0[0m
+2023-09-05 04:03:16 info: [0mPOST /Game/all [32m200[0m 5.849 ms - 2[0m
+2023-09-05 04:03:17 info: [0mPOST /Game/all [32m200[0m 4.116 ms - 2[0m
+2023-09-05 04:03:35 info: [0mOPTIONS /signup [32m204[0m 0.208 ms - 0[0m
+2023-09-05 04:03:35 info: [0mPOST /signup [32m201[0m 244.684 ms - 118[0m
+2023-09-05 04:03:42 info: [0mOPTIONS /login [32m204[0m 0.193 ms - 0[0m
+2023-09-05 04:03:42 info: [0mPOST /login [32m200[0m 106.917 ms - 140[0m
+2023-09-05 04:03:42 info: [0mOPTIONS /Game/all [32m204[0m 0.331 ms - 0[0m
+2023-09-05 04:03:42 info: [0mOPTIONS /Game/all [32m204[0m 0.162 ms - 0[0m
+2023-09-05 04:03:42 info: [0mPOST /Game/all [32m200[0m 22.828 ms - 2[0m
+2023-09-05 04:03:42 info: [0mPOST /Game/all [32m200[0m 34.628 ms - 2[0m
+2023-09-05 04:03:43 info: [0mPOST /Game/all [32m200[0m 52.469 ms - 2[0m
+2023-09-05 04:03:50 info: [0mOPTIONS /Game [32m204[0m 3.885 ms - 0[0m
+2023-09-05 04:03:50 info: [0mPOST /Game [32m201[0m 386.216 ms - -[0m

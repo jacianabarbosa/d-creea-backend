@@ -1,0 +1,74 @@
+2023-09-04 23:38:38 info: =================================
+2023-09-04 23:38:38 info: ======= ENV: development =======
+2023-09-04 23:38:38 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-09-04 23:42:03 info: =================================
+2023-09-04 23:42:03 info: ======= ENV: development =======
+2023-09-04 23:42:03 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-09-04 23:45:08 info: [0mOPTIONS /signup [32m204[0m 4.591 ms - 0[0m
+2023-09-04 23:45:08 info: [0mPOST /signup [32m201[0m 239.995 ms - 123[0m
+2023-09-04 23:45:14 info: [0mOPTIONS /login [32m204[0m 0.192 ms - 0[0m
+2023-09-04 23:45:14 info: [0mPOST /login [32m200[0m 99.980 ms - 145[0m
+2023-09-04 23:45:14 info: [0mOPTIONS /Game/all [32m204[0m 0.143 ms - 0[0m
+2023-09-04 23:45:14 info: [0mOPTIONS /Game/all [32m204[0m 0.204 ms - 0[0m
+2023-09-04 23:45:14 info: [0mPOST /Game/all [32m200[0m 78.394 ms - 2[0m
+2023-09-04 23:45:14 info: [0mPOST /Game/all [32m200[0m 91.585 ms - 2[0m
+2023-09-04 23:45:27 info: [0mOPTIONS /Game [32m204[0m 0.178 ms - 0[0m
+2023-09-04 23:45:27 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: game: Path `game` is required., Error: **Error: ValidationError: game: Path `game` is required.** Error: **ValidationError: game: Path `game` is required.**
+2023-09-04 23:45:27 info: [0mPOST /Game [33m400[0m 148.338 ms - 49[0m
+2023-09-04 23:46:02 info: =================================
+2023-09-04 23:46:02 info: ======= ENV: development =======
+2023-09-04 23:46:02 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-09-04 23:46:58 info: =================================
+2023-09-04 23:46:58 info: ======= ENV: development =======
+2023-09-04 23:46:58 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-09-04 23:51:00 info: =================================
+2023-09-04 23:51:00 info: ======= ENV: development =======
+2023-09-04 23:51:00 info: 🚀 App listening on http://localhost:3000/api-docs/
+2023-09-04 23:51:22 info: [0mOPTIONS /login [32m204[0m 1.392 ms - 0[0m
+2023-09-04 23:51:22 info: [0mPOST /login [32m200[0m 168.303 ms - 145[0m
+2023-09-04 23:51:22 info: [0mOPTIONS /Game/all [32m204[0m 0.156 ms - 0[0m
+2023-09-04 23:51:22 info: [0mPOST /Game/all [32m200[0m 64.350 ms - 700[0m
+2023-09-04 23:51:29 info: [0mOPTIONS /Game/find [32m204[0m 0.140 ms - 0[0m
+2023-09-04 23:51:29 info: [0mPOST /Game/find [32m200[0m 55.391 ms - 730[0m
+2023-09-04 23:52:39 info: [0mOPTIONS /login [32m204[0m 0.249 ms - 0[0m
+2023-09-04 23:52:39 info: [0mPOST /login [32m200[0m 224.119 ms - 145[0m
+2023-09-04 23:52:39 info: [0mOPTIONS /Game/all [32m204[0m 0.169 ms - 0[0m
+2023-09-04 23:52:39 info: [0mPOST /Game/all [32m200[0m 14.893 ms - 700[0m
+2023-09-04 23:52:42 info: [0mOPTIONS /Game/find [32m204[0m 0.161 ms - 0[0m
+2023-09-04 23:52:42 info: [0mPOST /Game/find [32m200[0m 69.860 ms - 730[0m
+2023-09-04 23:54:49 info: [0mOPTIONS /Game/all [32m204[0m 0.143 ms - 0[0m
+2023-09-04 23:54:49 info: [0mPOST /Game/all [32m200[0m 43.101 ms - 2[0m
+2023-09-04 23:54:52 info: [0mPOST /Game/all [32m200[0m 262.227 ms - 2[0m
+2023-09-04 23:55:01 info: [0mOPTIONS /Game [32m204[0m 0.144 ms - 0[0m
+2023-09-04 23:55:01 info: [0mPOST /Game [32m201[0m 382.236 ms - -[0m
+2023-09-04 23:55:01 info: [0mGET /Card/all/64f69885fa0618330f78dcc5 [32m200[0m 123.427 ms - 2[0m
+2023-09-04 23:55:01 info: [0mGET /Card/all/64f69885fa0618330f78dcc6 [32m200[0m 94.352 ms - 2[0m
+2023-09-04 23:55:01 info: [0mGET /Card/all/64f69885fa0618330f78dcc7 [32m200[0m 81.399 ms - 2[0m
+2023-09-04 23:55:01 info: [0mGET /Card/all/64f69885fa0618330f78dcc5 [36m304[0m 50.597 ms - -[0m
+2023-09-04 23:55:01 info: [0mGET /Card/all/64f69885fa0618330f78dcc6 [36m304[0m 10.769 ms - -[0m
+2023-09-04 23:55:01 info: [0mGET /Card/all/64f69885fa0618330f78dcc7 [36m304[0m 12.853 ms - -[0m
+2023-09-04 23:55:07 info: [0mGET /Card/all/64f69885fa0618330f78dcc7 [36m304[0m 70.316 ms - -[0m
+2023-09-04 23:55:07 info: [0mGET /Card/all/64f69885fa0618330f78dcc6 [36m304[0m 79.510 ms - -[0m
+2023-09-04 23:55:07 info: [0mGET /Card/all/64f69885fa0618330f78dcc5 [36m304[0m 89.487 ms - -[0m
+2023-09-04 23:55:08 info: [0mGET /Card/all/64f69885fa0618330f78dcc5 [36m304[0m 106.915 ms - -[0m
+2023-09-04 23:55:08 info: [0mGET /Card/all/64f69885fa0618330f78dcc6 [36m304[0m 116.377 ms - -[0m
+2023-09-04 23:55:08 info: [0mGET /Card/all/64f69885fa0618330f78dcc7 [36m304[0m 117.802 ms - -[0m
+2023-09-04 23:56:16 info: [0mGET /Card/all/64f69885fa0618330f78dcc5 [36m304[0m 80.970 ms - -[0m
+2023-09-04 23:56:16 info: [0mGET /Card/all/64f69885fa0618330f78dcc6 [36m304[0m 86.930 ms - -[0m
+2023-09-04 23:56:16 info: [0mGET /Card/all/64f69885fa0618330f78dcc7 [36m304[0m 76.584 ms - -[0m
+2023-09-04 23:56:17 info: [0mGET /Card/all/64f69885fa0618330f78dcc5 [36m304[0m 9.045 ms - -[0m
+2023-09-04 23:56:17 info: [0mGET /Card/all/64f69885fa0618330f78dcc6 [36m304[0m 144.699 ms - -[0m
+2023-09-04 23:56:17 info: [0mGET /Card/all/64f69885fa0618330f78dcc7 [36m304[0m 145.767 ms - -[0m
+2023-09-04 23:56:40 info: [0mOPTIONS /State/ [32m204[0m 0.121 ms - 0[0m
+2023-09-04 23:56:40 info: [0mPOST /State/ [32m201[0m 128.880 ms - 459[0m
+2023-09-04 23:57:26 info: [0mOPTIONS /State/ [32m204[0m 0.145 ms - 0[0m
+2023-09-04 23:57:26 info: [0mPOST /State/ [32m201[0m 135.350 ms - 771[0m
+2023-09-04 23:58:41 info: [0mOPTIONS /State/ [32m204[0m 0.180 ms - 0[0m
+2023-09-04 23:58:41 info: [0mPOST /State/ [32m201[0m 69.873 ms - 453[0m
+2023-09-04 23:59:03 info: [0mOPTIONS /Deck [32m204[0m 0.116 ms - 0[0m
+2023-09-04 23:59:03 info: [0mPUT /Deck [32m200[0m 88.002 ms - 488[0m
+2023-09-04 23:59:05 info: [0mGET /Card/all/64f69885fa0618330f78dcc7 [36m304[0m 5.955 ms - -[0m
+2023-09-04 23:59:05 info: [0mGET /Card/all/64f69885fa0618330f78dcc6 [36m304[0m 78.064 ms - -[0m
+2023-09-04 23:59:05 info: [0mGET /Card/all/64f69885fa0618330f78dcc5 [36m304[0m 82.344 ms - -[0m
+2023-09-04 23:59:11 info: [0mOPTIONS /Card [32m204[0m 0.125 ms - 0[0m
+2023-09-04 23:59:11 info: [0mPOST /Card [32m201[0m 79.068 ms - 367[0m

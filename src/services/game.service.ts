@@ -58,11 +58,9 @@ class GameService {
             if (!gameCreated) throw new HttpException(409, 'There was an error while creating the game');
 
             //////////////////////////
-            
-            var gameEncontrado = await this.games.findOne({ name: gameCreated.name, user: gameCreated.user });
-            if(!gameEncontrado) throw new HttpException(409, 'não pode criar um game com o mesmo nome');
 
-            
+            gameCreated = await this.games.findOne({ name: gameCreated.name, user: gameCreated.user });
+            game._id = gameCreated._id;
 
             //////////////////////////
 

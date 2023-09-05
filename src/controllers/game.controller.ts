@@ -45,11 +45,9 @@ class GamesController {
     public createGame = async (req: Request, res: Response, next: NextFunction) => {
         try {
             const gameData: GameDto = req.body;
-            
             const game: IGame = await this.gameService.createGame(gameData);
-            console.log("passou?", game);
+
             const states: State[] = await this.stateService.findAllState(game._id);
-            
             const decks: IDeck[] = await this.decksService.findAllDecks(game._id);
 
             res.status(201).json({ game, states, decks });

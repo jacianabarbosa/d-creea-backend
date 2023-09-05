@@ -5,7 +5,7 @@ import Route from '@interfaces/routes.interface';
 import validationMiddleware from '@middlewares/validation.middleware';
 
 class GameRoute implements Route {
-  public path = '/Game';
+  public path = '/game';
   public router = Router();
   public gameController = new GameController();
 
