@@ -43,6 +43,7 @@ class GameService {
             if (isEmpty(gameData)) throw new HttpException(400, 'This game is not valid');
 
             var game: GameDto = gameDefault;
+            game._id = gameData._id;
             game.user = gameData.user;
             game.name = gameData.name ? gameData.name : game.name;
             game.description = gameData.description ? gameData.description : game.description;
