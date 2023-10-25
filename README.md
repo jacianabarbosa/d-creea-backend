@@ -5,32 +5,18 @@
 Backend from D-CREEA
 
 
+### Fazendo deploy:
 
-<!-- antes de tudo, 
-- instalar o node versão 12.19.0 (https://nodejs.org/dist/v12.19.0/)
-- na pasta do projeto back e front, executar 
-	npm i 
+1. Criar conta no [railway](https://railway.app/) 
+2. Linkar conta do github com o railway
+3. Criar um novo projeto no railway através do repositorio
+4. definidir variaveis de ambiente:
+``` bash
+PORT = 3000
+MONGODB_URL = url_do_banco_de_dados
+```
 
-ARQUIVO .ENV====
-1. criei um arquivo ".env" na raiz do projeto backend
-o arquivo se parece com isso:
+Pronto, o railway fará o deploy **automaticamente** e dentre de alguns minutos terá o link liberado para acesso.
 
-PORT=42041
-MONGODB_URL='sua_string_mongodb'
-
-==== CONECTAR AO BANCO ====
-2. criei uma conta no atlas mongodb
-
-3. criei um banco de dados, um usuário e seu acesso (guiado pelo atlas)
-
-4. cliquei em 'connect' e 'por driver node'
-
-5. copiei a string de conexão e colei no arquivo .env na parte de sua_string_mongodb
-
-==== COMANDOS PARA RODAR NO AMBIENTE DEV ====
-6. na pasta do projeto back, abri um cmd e digitei
-npm run dev
-
-7. na pasta do projeto front, abri um cmd e digitei
-nmp run dev -->
-
+**Link Disponivel em**
+> Settings -> Networking -> Public Networking

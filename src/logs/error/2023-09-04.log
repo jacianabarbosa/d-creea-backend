@@ -1,1 +1,0 @@
-2023-09-04 23:45:27 error: [POST] /Game >> StatusCode:: 400, Message:: ValidationError: game: Path `game` is required., Error: **Error: ValidationError: game: Path `game` is required.** Error: **ValidationError: game: Path `game` is required.**

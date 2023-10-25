@@ -32,7 +32,6 @@
         "jest": "^27.0.5",
         "jsonwebtoken": "^8.5.1",
         "moment": "^2.29.1",
-        "mongodb": "^5.7.0",
         "mongoose": "^5.12.15",
         "morgan": "^1.10.0",
         "swagger-jsdoc": "^6.0.0",
